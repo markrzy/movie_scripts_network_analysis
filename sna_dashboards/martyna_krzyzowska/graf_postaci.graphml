@@ -1,0 +1,1375 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="undirected"><node id="CHERYL"/>
+<node id="WALTER"/>
+<node id="TED HENDRICKS"/>
+<node id="EDNA"/>
+<node id="MAN"/>
+<node id="ODESSA"/>
+<node id="EHARMONY COUNSELOR"/>
+<node id="RICH"/>
+<node id="CAPTAIN"/>
+<node id="SEAN"/>
+<node id="TIM NAUGHTON"/>
+<node id="PILOT"/>
+<node id="HERNANDO"/>
+<node id="TODD MAHAR"/>
+<node id="CHILEAN SAILOR"/>
+<node id="MARK CHATHAM"/>
+<node id="EDITOR"/>
+<node id="GARY MANNHEIM"/>
+<node id="GARY"/>
+<node id="TED HENDRICKS COLLEAGUE"/>
+<node id="GUIDE"/>
+<node id="SOREN"/>
+<node id="CAB DRIVER"/>
+<node id="90.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                    WALTER"/>
+<node id="93.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="80.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="STEVE PENDERS"/>
+<node id="COMP--&#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="CHECK&#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="94.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               SEAN"/>
+<node id="81.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="95.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="PERMANENT--&#13;&#10;                         &#13;&#10;                                             NEW GUY"/>
+<node id="NEW GUY"/>
+<node id="84.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="86.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             NORMAL GUY"/>
+<node id="NORMAL GUY"/>
+<node id="91.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                     WALTER"/>
+<node id="87.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="ETIHAD CLERK"/>
+<node id="92.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR"/>
+<node id="SEANN"/>
+<node id="73.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="SOCCER FIELD - LATER"/>
+<node id="SOMALIAN"/>
+<node id="ULF"/>
+<node id="70.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SOREN"/>
+<node id="TICKET CLERK"/>
+<node id="79.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="WALTER AS DAVID AFTER DENTIST"/>
+<node id="YOUTUBE CLIP"/>
+<node id="WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS"/>
+<node id="67.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="66.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER"/>
+<node id="PHOTO--&#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="77.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="WALTER AS A CUBICLE"/>
+<node id="FOLLOWING EXCHANGE&#13;&#10;                                                                   76.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               CHERYL"/>
+<node id="FRONT DESK LADY"/>
+<node id="75.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="RODNEY"/>
+<node id="118.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             ACCOUNTING CLERK"/>
+<node id="116.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="4.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER"/>
+<node id="110.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER"/>
+<node id="ACCIDENTALLY--&#13;&#10;                         &#13;&#10;                                                WALTER"/>
+<node id="111.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="YOUNG MAN"/>
+<node id="109.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             POLICE CLERK"/>
+<node id="POLICE CLERK"/>
+<node id="ZACH DE LA ROCHA"/>
+<node id="LEAD SINGER ZACH DE LA ROCHA"/>
+<node id="KID"/>
+<node id="107.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              ZACH DE LA ROCHA"/>
+<node id="WORKING MAN"/>
+<node id="YOUNGER PROTESTORS"/>
+<node id="8.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER"/>
+<node id="6.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="SECOND MAN IN A SUIT"/>
+<node id="ROY"/>
+<node id="5.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="CREDITS BEGIN"/>
+<node id="121.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="119.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="PROTESTOR"/>
+<node id="65.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS"/>
+<node id="POLICE OFFICER"/>
+<node id="MARK CHATHAM&#13;&#10;                                   OKAY"/>
+<node id="AIDE"/>
+<node id="FEMALE NEWS REPORTER"/>
+<node id="REPORTER"/>
+<node id="COP"/>
+<node id="15-YR-OLD-PUERTO-RICAN GIRL MORGAN&#13;&#10;                                             FREEMAN"/>
+<node id="98.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="97.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                   WALTER"/>
+<node id="19.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="FORCE--&#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="18.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="13.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CHERYL"/>
+<node id="THIRD EXECUTIVE"/>
+<node id="63.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="64.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="SECOND EXECUTIVE"/>
+<node id="FIFTH EXECUTIVE"/>
+<node id="EXECUTIVE"/>
+<node id="28.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS"/>
+<node id="27.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              TED HENDRICKS COLLEAGUE"/>
+<node id="23.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="22.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="21.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CHERYL"/>
+<node id="GUY IN PARK"/>
+<node id="115.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             MARK CHATHAM"/>
+<node id="114.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              MARK CHATHAM"/>
+<node id="113.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              FOUR SEASONS CLERK"/>
+<node id="ETIHAD AIRLINES LUGGAGE GIRL"/>
+<node id="PIANO MOVERS&#13;&#10;                         &#13;&#10;                         PIANO STORAGE"/>
+<node id="EHARMONY SIGN-UP"/>
+<node id="12.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SECOND EXECUTIVE"/>
+<node id="58.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="56.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="MOVER"/>
+<node id="CAR IMPOUND OFFICER"/>
+<node id="50.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CHERYL"/>
+<node id="49.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="48.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR"/>
+<node id="ENGLIGH SPEAKING CHILEAN SAILOR"/>
+<node id="46.&#13;&#10;                         &#13;&#10;                              ENGLIGH SPEAKING CHILEAN SAILOR"/>
+<node id="45.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="62.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS"/>
+<node id="61.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             ODESSA"/>
+<node id="KLIPSPRINGER&#13;&#10;                         &#13;&#10;                         KOOFIYAD&#13;&#10;                         &#13;&#10;                         FAKR AD-D"/>
+<node id="60.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               WALTER"/>
+<node id="RETIREMENT HOME ADMINISTRATOR"/>
+<node id="BILLING DIRECTOR"/>
+<node id="36.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             POSTAL CLERK"/>
+<node id="POSTAL CLERK"/>
+<node id="BOAT CAPTAIN"/>
+<node id="35.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             BOAT CAPTAIN"/>
+<node id="34.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="33.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CAB DRIVER"/>
+<node id="TEEN"/>
+<node id="32.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SECOND TEEN"/>
+<node id="30.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER"/>
+<node id="SECOND BACK SEAT CHILEAN"/>
+<node id="BACK SEAT CHILEAN"/>
+<node id="44.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              SECOND BACK SEAT CHILEAN"/>
+<node id="43.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER"/>
+<node id="CHILEAN CAPTAIN"/>
+<node id="41.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER"/>
+<node id="38.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<node id="37.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER"/>
+<edge source="CHERYL" target="WALTER">
+  <data key="d0">8</data>
+</edge>
+<edge source="CHERYL" target="RICH">
+  <data key="d0">4</data>
+</edge>
+<edge source="CHERYL" target="WALTER AS A CUBICLE">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHERYL" target="FOLLOWING EXCHANGE&#13;&#10;                                                                   76.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               CHERYL">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHERYL" target="77.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHERYL" target="4.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHERYL" target="EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHERYL" target="CREDITS BEGIN">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHERYL" target="121.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHERYL" target="13.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CHERYL">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHERYL" target="22.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHERYL" target="21.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CHERYL">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHERYL" target="5.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHERYL" target="50.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CHERYL">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="TED HENDRICKS">
+  <data key="d0">8</data>
+</edge>
+<edge source="WALTER" target="EDNA">
+  <data key="d0">6</data>
+</edge>
+<edge source="WALTER" target="MAN">
+  <data key="d0">6</data>
+</edge>
+<edge source="WALTER" target="ODESSA">
+  <data key="d0">5</data>
+</edge>
+<edge source="WALTER" target="EHARMONY COUNSELOR">
+  <data key="d0">5</data>
+</edge>
+<edge source="WALTER" target="RICH">
+  <data key="d0">4</data>
+</edge>
+<edge source="WALTER" target="CAPTAIN">
+  <data key="d0">4</data>
+</edge>
+<edge source="WALTER" target="SEAN">
+  <data key="d0">4</data>
+</edge>
+<edge source="WALTER" target="TIM NAUGHTON">
+  <data key="d0">4</data>
+</edge>
+<edge source="WALTER" target="PILOT">
+  <data key="d0">4</data>
+</edge>
+<edge source="WALTER" target="HERNANDO">
+  <data key="d0">3</data>
+</edge>
+<edge source="WALTER" target="TODD MAHAR">
+  <data key="d0">3</data>
+</edge>
+<edge source="WALTER" target="CHILEAN SAILOR">
+  <data key="d0">3</data>
+</edge>
+<edge source="WALTER" target="MARK CHATHAM">
+  <data key="d0">3</data>
+</edge>
+<edge source="WALTER" target="EDITOR">
+  <data key="d0">2</data>
+</edge>
+<edge source="WALTER" target="GARY MANNHEIM">
+  <data key="d0">2</data>
+</edge>
+<edge source="WALTER" target="GARY">
+  <data key="d0">2</data>
+</edge>
+<edge source="WALTER" target="GUIDE">
+  <data key="d0">2</data>
+</edge>
+<edge source="WALTER" target="SOREN">
+  <data key="d0">2</data>
+</edge>
+<edge source="WALTER" target="CAB DRIVER">
+  <data key="d0">2</data>
+</edge>
+<edge source="WALTER" target="TED HENDRICKS COLLEAGUE">
+  <data key="d0">2</data>
+</edge>
+<edge source="WALTER" target="80.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="PERMANENT--&#13;&#10;                         &#13;&#10;                                             NEW GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="NEW GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="STEVE PENDERS">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="COMP--&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="84.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="86.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             NORMAL GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="NORMAL GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="81.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="87.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="ETIHAD CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="CHECK&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="73.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="SOMALIAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="ULF">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="70.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SOREN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="TICKET CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="YOUTUBE CLIP">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="WALTER AS DAVID AFTER DENTIST">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="67.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="66.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="PHOTO--&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="79.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="77.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="WALTER AS A CUBICLE">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="FOLLOWING EXCHANGE&#13;&#10;                                                                   76.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               CHERYL">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="FRONT DESK LADY">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="75.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="RODNEY">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="SOCCER FIELD - LATER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="SEANN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="116.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="YOUNG MAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="POLICE CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="ZACH DE LA ROCHA">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="LEAD SINGER ZACH DE LA ROCHA">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="KID">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="107.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              ZACH DE LA ROCHA">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="YOUNGER PROTESTORS">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="WORKING MAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="6.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="ROY">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="5.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="4.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="121.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="119.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="118.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             ACCOUNTING CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="94.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               SEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="93.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="92.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="65.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="91.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                     WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="90.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                    WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="PROTESTOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="POLICE OFFICER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="MARK CHATHAM&#13;&#10;                                   OKAY">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="AIDE">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="COP">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="15-YR-OLD-PUERTO-RICAN GIRL MORGAN&#13;&#10;                                             FREEMAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="98.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="97.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                   WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="95.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="18.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="13.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CHERYL">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="THIRD EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="FIFTH EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="SECOND EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="27.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              TED HENDRICKS COLLEAGUE">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="19.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="23.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="22.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="21.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CHERYL">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="FORCE--&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="114.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              MARK CHATHAM">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="113.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              FOUR SEASONS CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="ETIHAD AIRLINES LUGGAGE GIRL">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="ACCIDENTALLY--&#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="110.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="PIANO MOVERS&#13;&#10;                         &#13;&#10;                         PIANO STORAGE">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="EHARMONY SIGN-UP">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="CREDITS BEGIN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="111.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="12.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SECOND EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="8.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="SECOND MAN IN A SUIT">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="56.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="MOVER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="CAR IMPOUND OFFICER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="50.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CHERYL">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="49.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="28.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="48.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="ENGLIGH SPEAKING CHILEAN SAILOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="46.&#13;&#10;                         &#13;&#10;                              ENGLIGH SPEAKING CHILEAN SAILOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="45.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="64.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="63.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="115.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             MARK CHATHAM">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="58.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="61.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             ODESSA">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="KLIPSPRINGER&#13;&#10;                         &#13;&#10;                         KOOFIYAD&#13;&#10;                         &#13;&#10;                         FAKR AD-D">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="60.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="RETIREMENT HOME ADMINISTRATOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="BILLING DIRECTOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="62.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="BOAT CAPTAIN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="35.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             BOAT CAPTAIN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="34.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="33.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CAB DRIVER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="TEEN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="30.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="32.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SECOND TEEN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="SECOND BACK SEAT CHILEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="BACK SEAT CHILEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="44.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              SECOND BACK SEAT CHILEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="43.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="CHILEAN CAPTAIN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="36.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             POSTAL CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="41.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="38.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="37.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER" target="POSTAL CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="EDITOR">
+  <data key="d0">2</data>
+</edge>
+<edge source="TED HENDRICKS" target="TIM NAUGHTON">
+  <data key="d0">2</data>
+</edge>
+<edge source="TED HENDRICKS" target="TED HENDRICKS COLLEAGUE">
+  <data key="d0">2</data>
+</edge>
+<edge source="TED HENDRICKS" target="SEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="PERMANENT--&#13;&#10;                         &#13;&#10;                                             NEW GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="79.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="PHOTO--&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="NEW GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="6.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="THIRD EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="SECOND EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="FIFTH EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="28.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="27.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              TED HENDRICKS COLLEAGUE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="TODD MAHAR">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="12.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SECOND EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="HERNANDO">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="SECOND MAN IN A SUIT">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="MAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="GARY MANNHEIM">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="GARY">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="8.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="65.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="64.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="63.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="62.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS" target="EDNA">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDNA" target="84.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDNA" target="67.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDNA" target="66.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDNA" target="28.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDNA" target="27.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              TED HENDRICKS COLLEAGUE">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDNA" target="HERNANDO">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDNA" target="TIM NAUGHTON">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDNA" target="TED HENDRICKS COLLEAGUE">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDNA" target="EDITOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="PILOT">
+  <data key="d0">2</data>
+</edge>
+<edge source="MAN" target="YOUNG MAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="6.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="YOUNGER PROTESTORS">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="WORKING MAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="PROTESTOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="8.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="SECOND MAN IN A SUIT">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="GARY MANNHEIM">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="GARY">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="48.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="49.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="38.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="MAN" target="37.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="ODESSA" target="119.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="ODESSA" target="98.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="ODESSA" target="97.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                   WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="ODESSA" target="58.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="ODESSA" target="56.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="ODESSA" target="61.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             ODESSA">
+  <data key="d0">1</data>
+</edge>
+<edge source="ODESSA" target="KLIPSPRINGER&#13;&#10;                         &#13;&#10;                         KOOFIYAD&#13;&#10;                         &#13;&#10;                         FAKR AD-D">
+  <data key="d0">1</data>
+</edge>
+<edge source="ODESSA" target="60.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="90.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                    WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="75.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="5.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="95.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="94.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               SEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="93.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="92.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="91.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                     WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="SEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="19.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="18.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="FORCE--&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="4.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="49.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="EHARMONY COUNSELOR" target="48.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="RICH" target="77.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="RICH" target="22.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="RICH" target="21.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CHERYL">
+  <data key="d0">1</data>
+</edge>
+<edge source="RICH" target="GUY IN PARK">
+  <data key="d0">1</data>
+</edge>
+<edge source="RICH" target="50.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CHERYL">
+  <data key="d0">1</data>
+</edge>
+<edge source="CAPTAIN" target="BOAT CAPTAIN">
+  <data key="d0">1</data>
+</edge>
+<edge source="CAPTAIN" target="35.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             BOAT CAPTAIN">
+  <data key="d0">1</data>
+</edge>
+<edge source="CAPTAIN" target="CHILEAN SAILOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="CAPTAIN" target="CHILEAN CAPTAIN">
+  <data key="d0">1</data>
+</edge>
+<edge source="CAPTAIN" target="41.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="PERMANENT--&#13;&#10;                         &#13;&#10;                                             NEW GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="TED HENDRICKS COLLEAGUE">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="SEANN">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="73.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="NEW GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="90.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                    WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="79.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="SOCCER FIELD - LATER">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="94.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               SEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="93.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="91.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                     WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="92.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEAN" target="95.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="GARY MANNHEIM">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="GARY">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="118.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             ACCOUNTING CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="THIRD EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="SECOND EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="FIFTH EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="28.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="27.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              TED HENDRICKS COLLEAGUE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="23.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="12.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SECOND EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="TED HENDRICKS COLLEAGUE">
+  <data key="d0">1</data>
+</edge>
+<edge source="TIM NAUGHTON" target="EDITOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="PILOT" target="38.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="PILOT" target="37.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="HERNANDO" target="EDITOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="HERNANDO" target="30.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TODD MAHAR" target="110.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TODD MAHAR" target="ETIHAD AIRLINES LUGGAGE GIRL">
+  <data key="d0">1</data>
+</edge>
+<edge source="TODD MAHAR" target="ACCIDENTALLY--&#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TODD MAHAR" target="111.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHILEAN SAILOR" target="ENGLIGH SPEAKING CHILEAN SAILOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHILEAN SAILOR" target="46.&#13;&#10;                         &#13;&#10;                              ENGLIGH SPEAKING CHILEAN SAILOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHILEAN SAILOR" target="45.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHILEAN SAILOR" target="43.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHILEAN SAILOR" target="CHILEAN CAPTAIN">
+  <data key="d0">1</data>
+</edge>
+<edge source="MARK CHATHAM" target="116.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="MARK CHATHAM" target="POLICE OFFICER">
+  <data key="d0">1</data>
+</edge>
+<edge source="MARK CHATHAM" target="MARK CHATHAM&#13;&#10;                                   OKAY">
+  <data key="d0">1</data>
+</edge>
+<edge source="MARK CHATHAM" target="AIDE">
+  <data key="d0">1</data>
+</edge>
+<edge source="MARK CHATHAM" target="114.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              MARK CHATHAM">
+  <data key="d0">1</data>
+</edge>
+<edge source="MARK CHATHAM" target="115.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             MARK CHATHAM">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDITOR" target="28.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDITOR" target="27.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              TED HENDRICKS COLLEAGUE">
+  <data key="d0">1</data>
+</edge>
+<edge source="EDITOR" target="TED HENDRICKS COLLEAGUE">
+  <data key="d0">1</data>
+</edge>
+<edge source="GARY MANNHEIM" target="GARY">
+  <data key="d0">2</data>
+</edge>
+<edge source="GARY MANNHEIM" target="6.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="GARY MANNHEIM" target="118.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             ACCOUNTING CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="GARY MANNHEIM" target="8.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="GARY MANNHEIM" target="SECOND MAN IN A SUIT">
+  <data key="d0">1</data>
+</edge>
+<edge source="GARY" target="118.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             ACCOUNTING CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="GARY" target="8.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="GARY" target="6.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="GARY" target="SECOND MAN IN A SUIT">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS COLLEAGUE" target="PERMANENT--&#13;&#10;                         &#13;&#10;                                             NEW GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS COLLEAGUE" target="NEW GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS COLLEAGUE" target="79.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS COLLEAGUE" target="28.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS">
+  <data key="d0">1</data>
+</edge>
+<edge source="TED HENDRICKS COLLEAGUE" target="27.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              TED HENDRICKS COLLEAGUE">
+  <data key="d0">1</data>
+</edge>
+<edge source="SOREN" target="ULF">
+  <data key="d0">1</data>
+</edge>
+<edge source="SOREN" target="70.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SOREN">
+  <data key="d0">1</data>
+</edge>
+<edge source="CAB DRIVER" target="34.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="CAB DRIVER" target="33.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             CAB DRIVER">
+  <data key="d0">1</data>
+</edge>
+<edge source="90.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                    WALTER" target="93.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="90.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                    WALTER" target="94.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               SEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="90.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                    WALTER" target="95.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="90.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                    WALTER" target="91.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                     WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="90.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                    WALTER" target="92.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="93.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="92.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="93.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="95.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="93.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="94.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               SEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="93.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="91.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                     WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="80.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="STEVE PENDERS">
+  <data key="d0">1</data>
+</edge>
+<edge source="80.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="COMP--&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="80.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="CHECK&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="80.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="81.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="STEVE PENDERS" target="COMP--&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="STEVE PENDERS" target="CHECK&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="STEVE PENDERS" target="81.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="COMP--&#13;&#10;                         &#13;&#10;                                             WALTER" target="CHECK&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="COMP--&#13;&#10;                         &#13;&#10;                                             WALTER" target="81.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="CHECK&#13;&#10;                         &#13;&#10;                                             WALTER" target="81.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="94.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               SEAN" target="95.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="94.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               SEAN" target="92.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="94.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               SEAN" target="91.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                     WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="95.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="92.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="95.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="91.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                     WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="PERMANENT--&#13;&#10;                         &#13;&#10;                                             NEW GUY" target="NEW GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="PERMANENT--&#13;&#10;                         &#13;&#10;                                             NEW GUY" target="79.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="NEW GUY" target="79.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="86.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             NORMAL GUY" target="NORMAL GUY">
+  <data key="d0">1</data>
+</edge>
+<edge source="91.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                     WALTER" target="92.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="87.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="ETIHAD CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEANN" target="73.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="SEANN" target="SOCCER FIELD - LATER">
+  <data key="d0">1</data>
+</edge>
+<edge source="73.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="SOCCER FIELD - LATER">
+  <data key="d0">1</data>
+</edge>
+<edge source="ULF" target="70.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SOREN">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER AS DAVID AFTER DENTIST" target="YOUTUBE CLIP">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER AS DAVID AFTER DENTIST" target="WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS">
+  <data key="d0">1</data>
+</edge>
+<edge source="YOUTUBE CLIP" target="WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS">
+  <data key="d0">1</data>
+</edge>
+<edge source="67.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="66.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="PHOTO--&#13;&#10;                         &#13;&#10;                                             WALTER" target="65.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS">
+  <data key="d0">1</data>
+</edge>
+<edge source="PHOTO--&#13;&#10;                         &#13;&#10;                                             WALTER" target="64.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="PHOTO--&#13;&#10;                         &#13;&#10;                                             WALTER" target="63.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="WALTER AS A CUBICLE" target="FOLLOWING EXCHANGE&#13;&#10;                                                                   76.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               CHERYL">
+  <data key="d0">1</data>
+</edge>
+<edge source="116.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="115.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             MARK CHATHAM">
+  <data key="d0">1</data>
+</edge>
+<edge source="4.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER" target="5.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="110.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER" target="ACCIDENTALLY--&#13;&#10;                         &#13;&#10;                                                WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="110.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                                WALTER" target="111.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="ACCIDENTALLY--&#13;&#10;                         &#13;&#10;                                                WALTER" target="111.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="109.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             POLICE CLERK" target="POLICE CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="ZACH DE LA ROCHA" target="KID">
+  <data key="d0">1</data>
+</edge>
+<edge source="ZACH DE LA ROCHA" target="107.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              ZACH DE LA ROCHA">
+  <data key="d0">1</data>
+</edge>
+<edge source="ZACH DE LA ROCHA" target="LEAD SINGER ZACH DE LA ROCHA">
+  <data key="d0">1</data>
+</edge>
+<edge source="LEAD SINGER ZACH DE LA ROCHA" target="KID">
+  <data key="d0">1</data>
+</edge>
+<edge source="LEAD SINGER ZACH DE LA ROCHA" target="107.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              ZACH DE LA ROCHA">
+  <data key="d0">1</data>
+</edge>
+<edge source="KID" target="107.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              ZACH DE LA ROCHA">
+  <data key="d0">1</data>
+</edge>
+<edge source="WORKING MAN" target="YOUNGER PROTESTORS">
+  <data key="d0">1</data>
+</edge>
+<edge source="WORKING MAN" target="PROTESTOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="YOUNGER PROTESTORS" target="PROTESTOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="8.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER" target="6.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="8.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                              WALTER" target="SECOND MAN IN A SUIT">
+  <data key="d0">1</data>
+</edge>
+<edge source="6.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="SECOND MAN IN A SUIT">
+  <data key="d0">1</data>
+</edge>
+<edge source="CREDITS BEGIN" target="121.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="65.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS" target="64.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="65.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS" target="63.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="POLICE OFFICER" target="MARK CHATHAM&#13;&#10;                                   OKAY">
+  <data key="d0">1</data>
+</edge>
+<edge source="POLICE OFFICER" target="AIDE">
+  <data key="d0">1</data>
+</edge>
+<edge source="MARK CHATHAM&#13;&#10;                                   OKAY" target="AIDE">
+  <data key="d0">1</data>
+</edge>
+<edge source="FEMALE NEWS REPORTER" target="REPORTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="98.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="97.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                   WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="19.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="FORCE--&#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="19.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="18.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="FORCE--&#13;&#10;                         &#13;&#10;                                             WALTER" target="18.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="THIRD EXECUTIVE" target="SECOND EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="THIRD EXECUTIVE" target="FIFTH EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="THIRD EXECUTIVE" target="EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="THIRD EXECUTIVE" target="12.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SECOND EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="63.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="64.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="SECOND EXECUTIVE" target="FIFTH EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="SECOND EXECUTIVE" target="EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="SECOND EXECUTIVE" target="12.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SECOND EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="FIFTH EXECUTIVE" target="EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="FIFTH EXECUTIVE" target="12.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SECOND EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="EXECUTIVE" target="12.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SECOND EXECUTIVE">
+  <data key="d0">1</data>
+</edge>
+<edge source="28.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             TED HENDRICKS" target="27.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              TED HENDRICKS COLLEAGUE">
+  <data key="d0">1</data>
+</edge>
+<edge source="PIANO MOVERS&#13;&#10;                         &#13;&#10;                         PIANO STORAGE" target="EHARMONY SIGN-UP">
+  <data key="d0">1</data>
+</edge>
+<edge source="58.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="56.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="49.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER" target="48.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             EHARMONY COUNSELOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="ENGLIGH SPEAKING CHILEAN SAILOR" target="46.&#13;&#10;                         &#13;&#10;                              ENGLIGH SPEAKING CHILEAN SAILOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="ENGLIGH SPEAKING CHILEAN SAILOR" target="45.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="46.&#13;&#10;                         &#13;&#10;                              ENGLIGH SPEAKING CHILEAN SAILOR" target="45.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="KLIPSPRINGER&#13;&#10;                         &#13;&#10;                         KOOFIYAD&#13;&#10;                         &#13;&#10;                         FAKR AD-D" target="60.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                               WALTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="RETIREMENT HOME ADMINISTRATOR" target="BILLING DIRECTOR">
+  <data key="d0">1</data>
+</edge>
+<edge source="36.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             POSTAL CLERK" target="POSTAL CLERK">
+  <data key="d0">1</data>
+</edge>
+<edge source="BOAT CAPTAIN" target="35.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             BOAT CAPTAIN">
+  <data key="d0">1</data>
+</edge>
+<edge source="TEEN" target="32.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                                             SECOND TEEN">
+  <data key="d0">1</data>
+</edge>
+<edge source="SECOND BACK SEAT CHILEAN" target="BACK SEAT CHILEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="SECOND BACK SEAT CHILEAN" target="44.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              SECOND BACK SEAT CHILEAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="BACK SEAT CHILEAN" target="44.&#13;&#10;                         &#13;&#10;                         &#13;&#10;                         &#13;&#10;                              SECOND BACK SEAT CHILEAN">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

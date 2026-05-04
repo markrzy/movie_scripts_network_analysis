@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Secret Life of Walter Mitty — Analiza Sieci Postaci</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --gold: #FFD166;
+  --orange: #FF9F1C;
+  --green: #A3C9A8;
+  --blue-cool: #5A7A9F;
+  --navy: #2E4057;
+  --sky: #E8F0F8;
+  --gray: #A8B5C8;
+  --cream: #FFFFFF;
+  --bg: #0b111a;
+  --bg2: #141d2b;
+  --bg3: #1a2535;
+  --text: #FFFFFF;
+  --text-dim: #BAC7D9;
+  --panel: rgba(16, 23, 34, 0.95);
+  --border: rgba(90, 122, 159, 0.45);
+  --accent: #FFD166;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Jost', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Atmospheric background */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: 
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(90,122,159,0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(163,201,168,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 30% at 20% 60%, rgba(255,209,102,0.08) 0%, transparent 50%),
+    linear-gradient(180deg, #0b111a 0%, #141d2b 40%, #0b111a 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Noise texture overlay */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+#app { position: relative; z-index: 1; }
+
+/* ── HEADER ── */
+header {
+  text-align: center;
+  padding: 2.5rem 2rem 1.8rem;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(30,42,60,0.5) 0%, transparent 100%);
+  position: relative;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.header-eyebrow {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.6rem;
+  opacity: 0.95;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--cream);
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  margin-bottom: 0.4rem;
+}
+
+.header-sub {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+/* ── MAIN LAYOUT ── */
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  min-height: calc(100vh - 130px);
+  gap: 0;
+}
+
+/* ── GRAPH PANEL ── */
+.graph-panel {
+  position: relative;
+  border-right: 1px solid var(--border);
+  overflow: hidden;
+}
+
+/* Controls */
+.controls {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 10;
+  background: rgba(16,23,34,0.9);
+  padding: 6px;
+  border-radius: 40px;
+  border: 1px solid var(--border);
+  backdrop-filter: blur(8px);
+}
+
+.ctrl-btn {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: var(--gray);
+  transition: all 0.2s;
+}
+
+.ctrl-btn:hover { color: var(--cream); }
+.ctrl-btn.active {
+  background: var(--blue-cool);
+  color: var(--cream);
+}
+
+#graph-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ── RIGHT PANEL ── */
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  background: var(--panel);
+  border-left: 1px solid var(--border);
+}
+
+/* Node Card */
+.node-card {
+  padding: 1.2rem 1.4rem;
+  border-bottom: 1px solid var(--border);
+  min-height: 160px;
+  transition: all 0.3s;
+}
+
+.node-card-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 160px;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  gap: 8px;
+  padding: 1.2rem;
+}
+
+.node-card-empty .icon {
+  font-size: 1.8rem;
+  opacity: 0.5;
+}
+
+.node-card-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--cream);
+  margin-bottom: 0.3rem;
+  line-height: 1.2;
+}
+
+.node-card-community {
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.9rem;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 0.8rem;
+}
+
+.metric-box {
+  background: rgba(90,122,159,0.15);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+.metric-label {
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-bottom: 2px;
+}
+
+.metric-value {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--gold);
+}
+
+.neighbors-list {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+}
+
+.neighbors-list strong {
+  color: var(--cream);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 3px;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Legend */
+.legend-section {
+  padding: 1rem 1.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-title {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.8rem;
+}
+
+.legend-items {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+
+.legend-item:hover { background: rgba(255,255,255,0.08); color: var(--cream); }
+
+.legend-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Ranking */
+.ranking-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ranking-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+}
+
+.rank-tab {
+  flex: 1;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 8px 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--gray);
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  font-family: 'Jost', sans-serif;
+}
+
+.rank-tab:hover { color: var(--cream); }
+.rank-tab.active {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+.ranking-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.6rem 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.rank-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 1.4rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.rank-item:hover { background: rgba(255,255,255,0.08); }
+
+.rank-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  width: 18px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.rank-bar-wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.rank-name {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--cream);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rank-bar {
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.rank-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+.rank-val {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--gray);
+  min-width: 36px;
+  text-align: right;
+}
+
+/* ── INTERPRETATION ── */
+.interpretation {
+  padding: 2.5rem 3rem;
+  border-top: 1px solid var(--border);
+  background: linear-gradient(0deg, rgba(30,42,60,0.4) 0%, transparent 100%);
+  position: relative;
+}
+
+.interpretation::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 5%; right: 5%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--blue-cool), transparent);
+}
+
+.interp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.interp-card {
+  background: rgba(20,29,43,0.8);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.4rem 1.6rem;
+}
+
+.interp-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--gold);
+  margin-bottom: 0.6rem;
+  font-style: italic;
+}
+
+.interp-card p {
+  font-size: 0.8rem;
+  line-height: 1.7;
+  color: var(--text-dim);
+}
+
+/* Tooltip */
+#tooltip {
+  position: fixed;
+  background: rgba(16,23,34,0.98);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  pointer-events: none;
+  display: none;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  max-width: 220px;
+}
+
+#tooltip .tt-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--cream);
+  margin-bottom: 6px;
+}
+
+#tooltip .tt-row {
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  margin-bottom: 2px;
+  letter-spacing: 0.05em;
+}
+
+#tooltip .tt-row span {
+  color: var(--gold);
+  font-weight: 600;
+}
+
+/* Section header in interpretation */
+.section-header {
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+
+.section-header h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--cream);
+}
+
+.section-header p {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-top: 6px;
+}
+</style>
+</head>
+<body>
+<div id="app">
+<header>
+  <div class="header-eyebrow">Ben Stiller · 2013</div>
+  <h1>The Secret Life of Walter Mitty</h1>
+  <div class="header-sub">Analiza Sieci Postaci · Social Network Analysis</div>
+</header>
+
+<div class="main-layout">
+  <div class="graph-panel">
+    <div class="controls">
+      <button class="ctrl-btn active" data-mode="degree">Degree</button>
+      <button class="ctrl-btn" data-mode="betweenness">Betweenness</button>
+      <button class="ctrl-btn" data-mode="closeness">Closeness</button>
+      <button class="ctrl-btn" data-mode="pagerank">PageRank</button>
+    </div>
+    <svg id="graph-svg"></svg>
+  </div>
+
+  <div class="right-panel">
+    <div id="node-card" class="node-card">
+      <div class="node-card-empty">
+        <span class="icon">◎</span>
+        Kliknij węzeł, aby zobaczyć szczegóły
+      </div>
+    </div>
+
+    <div class="legend-section">
+      <div class="section-title">Społeczności (Modularity)</div>
+      <div id="legend-items" class="legend-items"></div>
+    </div>
+
+    <div class="ranking-section">
+      <div class="section-title" style="padding: 1rem 1.4rem 0; margin-bottom: 0;">Ranking postaci</div>
+      <div class="ranking-tabs">
+        <button class="rank-tab active" data-metric="degree">Degree</button>
+        <button class="rank-tab" data-metric="betweenness">Between.</button>
+        <button class="rank-tab" data-metric="closeness">Closeness</button>
+        <button class="rank-tab" data-metric="pagerank">PageRank</button>
+      </div>
+      <div id="ranking-list" class="ranking-list"></div>
+    </div>
+  </div>
+</div>
+
+<div class="interpretation">
+  <div class="section-header">
+    <h2>Interpretacja struktury sieci</h2>
+    <p>Social Network Analysis · The Secret Life of Walter Mitty</p>
+  </div>
+  <div class="interp-grid">
+    <div class="interp-card">
+      <h3>Walter — centrum grawitacji</h3>
+      <p>Walter Mitty dominuje sieć z betweenness centrality wynoszącym 0.892 — niemal 90% najkrótszych ścieżek między postaciami wiedzie przez niego. Wszystkie wątki narracyjne zbiegają się w tej jednej postaci, co odzwierciedla epicką, wewnętrzną podróż bohatera.</p>
+    </div>
+    <div class="interp-card">
+      <h3>Ted Hendricks — antagonistyczny most</h3>
+      <p>Hendricks zajmuje drugie miejsce pod względem betweenness (0.015), łącząc klaster korporacyjny z centrum. Jego pozycja jako „nowego szefa" nadającego likwidację Time Life Magazine stanowi strukturalny punkt kryzysowy fabuły.</p>
+    </div>
+    <div class="interp-card">
+      <h3>Fragmentacja obrzeży</h3>
+      <p>Sieć składa się z ponad 11 wykrytych społeczności. Większość peryferyjnych węzłów (Captain, Chilean Sailor, Soren, Zach de la Rocha) tworzy izolowane klastry połączone wyłącznie przez Waltera — odzwierciedlając epizodyczność jego globalnych przygód.</p>
+    </div>
+    <div class="interp-card">
+      <h3>Cheryl jako emocjonalna kotwica</h3>
+      <p>Cheryl pojawia się w sile relacyjnej na drugim miejscu wagowym (16 współwystąpień z Walterem). Pomimo niskiego betweenness, jej rola jako motywacyjne centrum całej podróży bohatera jest kluczowa dla narracyjnej spójności fabuły.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="tooltip"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+// ── DATA ──
+const rawNodes = [
+  {id:"CHERYL",label:"CHERYL",modClass:0,betweenness:0.00263,rawSize:24.04},
+  {id:"WALTER",label:"WALTER",modClass:1,betweenness:0.89227,rawSize:40},
+  {id:"TED HENDRICKS",label:"TED HENDRICKS",modClass:2,betweenness:0.01499,rawSize:30.56},
+  {id:"EDNA",label:"EDNA",modClass:2,betweenness:0.00014,rawSize:22.10},
+  {id:"MAN",label:"MAN",modClass:3,betweenness:0.00500,rawSize:26.19},
+  {id:"ODESSA",label:"ODESSA",modClass:1,betweenness:0,rawSize:19.36},
+  {id:"EHARMONY COUNSELOR",label:"EHARMONY COUNSELOR",modClass:0,betweenness:0.00079,rawSize:23.14},
+  {id:"RICH",label:"RICH",modClass:0,betweenness:0.02297,rawSize:17.42},
+  {id:"CAPTAIN",label:"CAPTAIN",modClass:4,betweenness:0.00028,rawSize:19.36},
+  {id:"SEAN",label:"SEAN",modClass:5,betweenness:0.00191,rawSize:25.55},
+  {id:"TIM NAUGHTON",label:"TIM NAUGHTON",modClass:2,betweenness:0.00348,rawSize:26.78},
+  {id:"PILOT",label:"PILOT",modClass:3,betweenness:0,rawSize:14.68},
+  {id:"HERNANDO",label:"HERNANDO",modClass:2,betweenness:0,rawSize:19.36},
+  {id:"TODD MAHAR",label:"TODD MAHAR",modClass:1,betweenness:0.00042,rawSize:19.36},
+  {id:"CHILEAN SAILOR",label:"CHILEAN SAILOR",modClass:4,betweenness:0.00028,rawSize:19.36},
+  {id:"MARK CHATHAM",label:"MARK CHATHAM",modClass:6,betweenness:0,rawSize:22.10},
+  {id:"EDITOR",label:"EDITOR",modClass:2,betweenness:0.00014,rawSize:22.10},
+  {id:"GARY MANNHEIM",label:"GARY MANNHEIM",modClass:2,betweenness:0.00040,rawSize:23.14},
+  {id:"GARY",label:"GARY",modClass:2,betweenness:0.00040,rawSize:23.14},
+  {id:"TED HENDRICKS COLLEAGUE",label:"TED HENDRICKS COLLEAGUE",modClass:5,betweenness:0.00084,rawSize:25.55},
+  {id:"GUIDE",label:"GUIDE",modClass:1,betweenness:0,rawSize:10},
+  {id:"SOREN",label:"SOREN",modClass:7,betweenness:0,rawSize:19.36},
+  {id:"CAB DRIVER",label:"CAB DRIVER",modClass:1,betweenness:0,rawSize:17.42},
+  {id:"STEVE PENDERS",label:"STEVE PENDERS",modClass:8,betweenness:0,rawSize:17.42},
+  {id:"COMP-- WALTER",label:"COMP-- WALTER",modClass:8,betweenness:0,rawSize:17.42},
+  {id:"CHECK WALTER",label:"CHECK WALTER",modClass:8,betweenness:0,rawSize:17.42},
+  {id:"PERMANENT-- NEW GUY",label:"PERM. NEW GUY",modClass:5,betweenness:0,rawSize:20.87},
+  {id:"NEW GUY",label:"NEW GUY",modClass:5,betweenness:0,rawSize:20.87},
+  {id:"NORMAL GUY",label:"NORMAL GUY",modClass:1,betweenness:0,rawSize:17.42},
+  {id:"ETIHAD CLERK",label:"ETIHAD CLERK",modClass:1,betweenness:0,rawSize:10},
+  {id:"SEANN",label:"SEANN",modClass:5,betweenness:0,rawSize:17.42},
+  {id:"SOCCER FIELD - LATER",label:"SOCCER FIELD",modClass:5,betweenness:0,rawSize:17.42},
+  {id:"SOMALIAN",label:"SOMALIAN",modClass:1,betweenness:0,rawSize:10},
+  {id:"ULF",label:"ULF",modClass:7,betweenness:0,rawSize:14.68},
+  {id:"TICKET CLERK",label:"TICKET CLERK",modClass:1,betweenness:0,rawSize:10},
+  {id:"WALTER AS DAVID AFTER DENTIST",label:"WALTER/DENTIST",modClass:1,betweenness:0,rawSize:17.42},
+  {id:"YOUTUBE CLIP",label:"YOUTUBE CLIP",modClass:1,betweenness:0,rawSize:17.42},
+  {id:"WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS",label:"MONTAGE",modClass:1,betweenness:0,rawSize:17.42},
+  {id:"PHOTO-- WALTER",label:"PHOTO-- WALTER",modClass:2,betweenness:0,rawSize:14.68},
+  {id:"WALTER AS A CUBICLE",label:"WALTER/CUBICLE",modClass:0,betweenness:0,rawSize:17.42},
+  {id:"FOLLOWING EXCHANGE 76. CHERYL",label:"EXCH. CHERYL",modClass:0,betweenness:0,rawSize:17.42},
+  {id:"FRONT DESK LADY",label:"FRONT DESK LADY",modClass:1,betweenness:0,rawSize:10},
+  {id:"RODNEY",label:"RODNEY",modClass:1,betweenness:0,rawSize:10},
+  {id:"ACCOUNTING CLERK",label:"ACCOUNTING CLERK",modClass:2,betweenness:0,rawSize:19.36},
+  {id:"ACCIDENTALLY-- WALTER",label:"ACCIDENT. WALTER",modClass:1,betweenness:0,rawSize:17.42},
+  {id:"YOUNG MAN",label:"YOUNG MAN",modClass:3,betweenness:0,rawSize:14.68},
+  {id:"POLICE CLERK",label:"POLICE CLERK",modClass:1,betweenness:0,rawSize:17.42},
+  {id:"ZACH DE LA ROCHA",label:"ZACH DE LA ROCHA",modClass:9,betweenness:0,rawSize:23.14},
+  {id:"LEAD SINGER ZACH DE LA ROCHA",label:"LEAD SINGER ZACH",modClass:9,betweenness:0,rawSize:19.36},
+  {id:"KID",label:"KID",modClass:9,betweenness:0,rawSize:19.36},
+  {id:"WORKING MAN",label:"WORKING MAN",modClass:3,betweenness:0,rawSize:19.36},
+  {id:"YOUNGER PROTESTORS",label:"YOUNGER PROT.",modClass:3,betweenness:0,rawSize:19.36},
+  {id:"SECOND MAN IN A SUIT",label:"2ND MAN/SUIT",modClass:2,betweenness:0,rawSize:20.87},
+  {id:"ROY",label:"ROY",modClass:1,betweenness:0,rawSize:10},
+  {id:"CREDITS BEGIN",label:"CREDITS BEGIN",modClass:0,betweenness:0,rawSize:14.68},
+  {id:"PROTESTOR",label:"PROTESTOR",modClass:3,betweenness:0,rawSize:19.36},
+  {id:"POLICE OFFICER",label:"POLICE OFFICER",modClass:6,betweenness:0,rawSize:19.36},
+  {id:"MARK CHATHAM OKAY",label:"MARK CH. OKAY",modClass:6,betweenness:0,rawSize:19.36},
+  {id:"AIDE",label:"AIDE",modClass:6,betweenness:0,rawSize:19.36},
+  {id:"FEMALE NEWS REPORTER",label:"FEMALE REPORTER",modClass:10,betweenness:0,rawSize:10},
+  {id:"REPORTER",label:"REPORTER",modClass:10,betweenness:0,rawSize:10},
+  {id:"COP",label:"COP",modClass:1,betweenness:0,rawSize:10},
+  {id:"15-YR-OLD-PUERTO-RICAN GIRL MORGAN FREEMAN",label:"15YO GIRL/M.FREEMAN",modClass:1,betweenness:0,rawSize:10},
+  {id:"FORCE-- WALTER",label:"FORCE-- WALTER",modClass:0,betweenness:0,rawSize:14.68},
+  {id:"THIRD EXECUTIVE",label:"3RD EXECUTIVE",modClass:2,betweenness:0,rawSize:22.10},
+  {id:"SECOND EXECUTIVE",label:"2ND EXECUTIVE",modClass:2,betweenness:0,rawSize:22.10},
+  {id:"FIFTH EXECUTIVE",label:"5TH EXECUTIVE",modClass:2,betweenness:0,rawSize:22.10},
+  {id:"EXECUTIVE",label:"EXECUTIVE",modClass:2,betweenness:0,rawSize:22.10},
+  {id:"GUY IN PARK",label:"GUY IN PARK",modClass:0,betweenness:0,rawSize:10},
+  {id:"FOUR SEASONS CLERK",label:"4 SEASONS CLERK",modClass:1,betweenness:0,rawSize:10},
+  {id:"ETIHAD AIRLINES LUGGAGE GIRL",label:"ETIHAD LUGGAGE",modClass:1,betweenness:0,rawSize:14.68},
+  {id:"PIANO MOVERS PIANO STORAGE",label:"PIANO MOVERS",modClass:1,betweenness:0,rawSize:14.68},
+  {id:"EHARMONY SIGN-UP",label:"EHARMONY SIGN-UP",modClass:1,betweenness:0,rawSize:14.68},
+  {id:"MOVER",label:"MOVER",modClass:1,betweenness:0,rawSize:10},
+  {id:"CAR IMPOUND OFFICER",label:"CAR IMPOUND",modClass:1,betweenness:0,rawSize:10},
+  {id:"ENGLIGH SPEAKING CHILEAN SAILOR",label:"ENG. CHILEAN SAILOR",modClass:4,betweenness:0,rawSize:19.36},
+  {id:"KLIPSPRINGER KOOFIYAD FAKR AD-D",label:"KLIPSPRINGER",modClass:1,betweenness:0,rawSize:14.68},
+  {id:"RETIREMENT HOME ADMINISTRATOR",label:"RETIRE. HOME ADM.",modClass:1,betweenness:0,rawSize:14.68},
+  {id:"BILLING DIRECTOR",label:"BILLING DIRECTOR",modClass:1,betweenness:0,rawSize:14.68},
+  {id:"POSTAL CLERK",label:"POSTAL CLERK",modClass:1,betweenness:0,rawSize:17.42},
+  {id:"BOAT CAPTAIN",label:"BOAT CAPTAIN",modClass:4,betweenness:0,rawSize:19.36},
+  {id:"TEEN",label:"TEEN",modClass:1,betweenness:0,rawSize:14.68},
+  {id:"SECOND TEEN",label:"SECOND TEEN",modClass:1,betweenness:0,rawSize:14.68},
+  {id:"SECOND BACK SEAT CHILEAN",label:"2ND BACKSEAT CHILEAN",modClass:11,betweenness:0,rawSize:20.87},
+  {id:"BACK SEAT CHILEAN",label:"BACKSEAT CHILEAN",modClass:11,betweenness:0,rawSize:17.42},
+  {id:"CHILEAN CAPTAIN",label:"CHILEAN CAPTAIN",modClass:4,betweenness:0.00027,rawSize:17.42},
+];
+
+const rawEdges = [
+  {s:"CHERYL",t:"WALTER",w:16},{s:"CHERYL",t:"RICH",w:4},{s:"CHERYL",t:"EHARMONY COUNSELOR",w:1},{s:"CHERYL",t:"CREDITS BEGIN",w:1},{s:"CHERYL",t:"WALTER AS A CUBICLE",w:1},{s:"CHERYL",t:"FOLLOWING EXCHANGE 76. CHERYL",w:1},
+  {s:"WALTER",t:"TED HENDRICKS",w:16},{s:"WALTER",t:"EDNA",w:6},{s:"WALTER",t:"MAN",w:6},{s:"WALTER",t:"ODESSA",w:6},{s:"WALTER",t:"EHARMONY COUNSELOR",w:11},{s:"WALTER",t:"RICH",w:4},{s:"WALTER",t:"CAPTAIN",w:4},{s:"WALTER",t:"SEAN",w:9},{s:"WALTER",t:"TIM NAUGHTON",w:4},{s:"WALTER",t:"PILOT",w:4},{s:"WALTER",t:"HERNANDO",w:3},{s:"WALTER",t:"TODD MAHAR",w:3},{s:"WALTER",t:"CHILEAN SAILOR",w:3},{s:"WALTER",t:"MARK CHATHAM",w:5},{s:"WALTER",t:"EDITOR",w:2},{s:"WALTER",t:"GARY MANNHEIM",w:2},{s:"WALTER",t:"GARY",w:2},{s:"WALTER",t:"GUIDE",w:2},{s:"WALTER",t:"SOREN",w:3},{s:"WALTER",t:"CAB DRIVER",w:3},{s:"WALTER",t:"TED HENDRICKS COLLEAGUE",w:3},{s:"WALTER",t:"PERMANENT-- NEW GUY",w:1},{s:"WALTER",t:"NEW GUY",w:1},{s:"WALTER",t:"STEVE PENDERS",w:1},{s:"WALTER",t:"COMP-- WALTER",w:1},{s:"WALTER",t:"NORMAL GUY",w:2},{s:"WALTER",t:"ETIHAD CLERK",w:1},{s:"WALTER",t:"CHECK WALTER",w:1},{s:"WALTER",t:"SOMALIAN",w:1},{s:"WALTER",t:"ULF",w:1},{s:"WALTER",t:"TICKET CLERK",w:1},{s:"WALTER",t:"YOUTUBE CLIP",w:1},{s:"WALTER",t:"WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS",w:1},{s:"WALTER",t:"WALTER AS DAVID AFTER DENTIST",w:1},{s:"WALTER",t:"PHOTO-- WALTER",w:1},{s:"WALTER",t:"WALTER AS A CUBICLE",w:1},{s:"WALTER",t:"FOLLOWING EXCHANGE 76. CHERYL",w:1},{s:"WALTER",t:"FRONT DESK LADY",w:1},{s:"WALTER",t:"RODNEY",w:1},{s:"WALTER",t:"SOCCER FIELD - LATER",w:1},{s:"WALTER",t:"SEANN",w:1},{s:"WALTER",t:"YOUNG MAN",w:1},{s:"WALTER",t:"POLICE CLERK",w:1},{s:"WALTER",t:"ZACH DE LA ROCHA",w:2},{s:"WALTER",t:"LEAD SINGER ZACH DE LA ROCHA",w:1},{s:"WALTER",t:"KID",w:1},{s:"WALTER",t:"YOUNGER PROTESTORS",w:1},{s:"WALTER",t:"WORKING MAN",w:1},{s:"WALTER",t:"ROY",w:1},{s:"WALTER",t:"ACCOUNTING CLERK",w:1},{s:"WALTER",t:"PROTESTOR",w:1},{s:"WALTER",t:"POLICE OFFICER",w:1},{s:"WALTER",t:"MARK CHATHAM OKAY",w:1},{s:"WALTER",t:"AIDE",w:1},{s:"WALTER",t:"COP",w:1},{s:"WALTER",t:"15-YR-OLD-PUERTO-RICAN GIRL MORGAN FREEMAN",w:1},{s:"WALTER",t:"THIRD EXECUTIVE",w:1},{s:"WALTER",t:"FIFTH EXECUTIVE",w:1},{s:"WALTER",t:"EXECUTIVE",w:1},{s:"WALTER",t:"SECOND EXECUTIVE",w:2},{s:"WALTER",t:"FORCE-- WALTER",w:1},{s:"WALTER",t:"FOUR SEASONS CLERK",w:1},{s:"WALTER",t:"ETIHAD AIRLINES LUGGAGE GIRL",w:1},{s:"WALTER",t:"ACCIDENTALLY-- WALTER",w:1},{s:"WALTER",t:"PIANO MOVERS PIANO STORAGE",w:1},{s:"WALTER",t:"EHARMONY SIGN-UP",w:1},{s:"WALTER",t:"CREDITS BEGIN",w:1},{s:"WALTER",t:"SECOND MAN IN A SUIT",w:1},{s:"WALTER",t:"MOVER",w:1},{s:"WALTER",t:"CAR IMPOUND OFFICER",w:1},{s:"WALTER",t:"ENGLIGH SPEAKING CHILEAN SAILOR",w:2},{s:"WALTER",t:"KLIPSPRINGER KOOFIYAD FAKR AD-D",w:1},{s:"WALTER",t:"RETIREMENT HOME ADMINISTRATOR",w:1},{s:"WALTER",t:"BILLING DIRECTOR",w:1},{s:"WALTER",t:"BOAT CAPTAIN",w:2},{s:"WALTER",t:"TEEN",w:1},{s:"WALTER",t:"SECOND TEEN",w:1},{s:"WALTER",t:"SECOND BACK SEAT CHILEAN",w:2},{s:"WALTER",t:"BACK SEAT CHILEAN",w:1},{s:"WALTER",t:"CHILEAN CAPTAIN",w:1},{s:"WALTER",t:"POSTAL CLERK",w:2},
+  {s:"TED HENDRICKS",t:"EDITOR",w:2},{s:"TED HENDRICKS",t:"TIM NAUGHTON",w:2},{s:"TED HENDRICKS",t:"TED HENDRICKS COLLEAGUE",w:3},{s:"TED HENDRICKS",t:"SEAN",w:1},{s:"TED HENDRICKS",t:"PERMANENT-- NEW GUY",w:1},{s:"TED HENDRICKS",t:"PHOTO-- WALTER",w:1},{s:"TED HENDRICKS",t:"NEW GUY",w:1},{s:"TED HENDRICKS",t:"THIRD EXECUTIVE",w:1},{s:"TED HENDRICKS",t:"SECOND EXECUTIVE",w:2},{s:"TED HENDRICKS",t:"FIFTH EXECUTIVE",w:1},{s:"TED HENDRICKS",t:"TODD MAHAR",w:1},{s:"TED HENDRICKS",t:"EXECUTIVE",w:1},{s:"TED HENDRICKS",t:"HERNANDO",w:1},{s:"TED HENDRICKS",t:"SECOND MAN IN A SUIT",w:1},{s:"TED HENDRICKS",t:"MAN",w:1},{s:"TED HENDRICKS",t:"GARY MANNHEIM",w:1},{s:"TED HENDRICKS",t:"GARY",w:1},{s:"TED HENDRICKS",t:"EDNA",w:1},
+  {s:"EDNA",t:"TED HENDRICKS COLLEAGUE",w:2},{s:"EDNA",t:"HERNANDO",w:1},{s:"EDNA",t:"TIM NAUGHTON",w:1},{s:"EDNA",t:"EDITOR",w:1},
+  {s:"MAN",t:"PILOT",w:2},{s:"MAN",t:"YOUNG MAN",w:1},{s:"MAN",t:"YOUNGER PROTESTORS",w:1},{s:"MAN",t:"WORKING MAN",w:1},{s:"MAN",t:"PROTESTOR",w:1},{s:"MAN",t:"SECOND MAN IN A SUIT",w:1},{s:"MAN",t:"GARY MANNHEIM",w:1},{s:"MAN",t:"GARY",w:1},{s:"MAN",t:"EHARMONY COUNSELOR",w:2},
+  {s:"ODESSA",t:"KLIPSPRINGER KOOFIYAD FAKR AD-D",w:1},
+  {s:"EHARMONY COUNSELOR",t:"SEAN",w:3},{s:"EHARMONY COUNSELOR",t:"FORCE-- WALTER",w:1},
+  {s:"RICH",t:"GUY IN PARK",w:1},
+  {s:"CAPTAIN",t:"BOAT CAPTAIN",w:2},{s:"CAPTAIN",t:"CHILEAN SAILOR",w:1},{s:"CAPTAIN",t:"CHILEAN CAPTAIN",w:1},
+  {s:"SEAN",t:"PERMANENT-- NEW GUY",w:1},{s:"SEAN",t:"TED HENDRICKS COLLEAGUE",w:1},{s:"SEAN",t:"SEANN",w:1},{s:"SEAN",t:"NEW GUY",w:1},{s:"SEAN",t:"SOCCER FIELD - LATER",w:1},
+  {s:"TIM NAUGHTON",t:"GARY MANNHEIM",w:1},{s:"TIM NAUGHTON",t:"GARY",w:1},{s:"TIM NAUGHTON",t:"ACCOUNTING CLERK",w:1},{s:"TIM NAUGHTON",t:"THIRD EXECUTIVE",w:1},{s:"TIM NAUGHTON",t:"SECOND EXECUTIVE",w:2},{s:"TIM NAUGHTON",t:"FIFTH EXECUTIVE",w:1},{s:"TIM NAUGHTON",t:"EXECUTIVE",w:1},{s:"TIM NAUGHTON",t:"TED HENDRICKS COLLEAGUE",w:2},{s:"TIM NAUGHTON",t:"EDITOR",w:1},
+  {s:"HERNANDO",t:"EDITOR",w:1},
+  {s:"TODD MAHAR",t:"ETIHAD AIRLINES LUGGAGE GIRL",w:1},{s:"TODD MAHAR",t:"ACCIDENTALLY-- WALTER",w:1},
+  {s:"CHILEAN SAILOR",t:"ENGLIGH SPEAKING CHILEAN SAILOR",w:2},{s:"CHILEAN SAILOR",t:"CHILEAN CAPTAIN",w:1},
+  {s:"MARK CHATHAM",t:"POLICE OFFICER",w:1},{s:"MARK CHATHAM",t:"MARK CHATHAM OKAY",w:1},{s:"MARK CHATHAM",t:"AIDE",w:1},
+  {s:"EDITOR",t:"TED HENDRICKS COLLEAGUE",w:2},
+  {s:"GARY MANNHEIM",t:"GARY",w:2},{s:"GARY MANNHEIM",t:"ACCOUNTING CLERK",w:1},{s:"GARY MANNHEIM",t:"SECOND MAN IN A SUIT",w:1},
+  {s:"GARY",t:"ACCOUNTING CLERK",w:1},{s:"GARY",t:"SECOND MAN IN A SUIT",w:1},
+  {s:"TED HENDRICKS COLLEAGUE",t:"PERMANENT-- NEW GUY",w:1},{s:"TED HENDRICKS COLLEAGUE",t:"NEW GUY",w:1},
+  {s:"SOREN",t:"ULF",w:1},
+  {s:"STEVE PENDERS",t:"COMP-- WALTER",w:1},{s:"STEVE PENDERS",t:"CHECK WALTER",w:1},
+  {s:"COMP-- WALTER",t:"CHECK WALTER",w:1},
+  {s:"PERMANENT-- NEW GUY",t:"NEW GUY",w:1},
+  {s:"SEANN",t:"SOCCER FIELD - LATER",w:1},
+  {s:"WALTER AS DAVID AFTER DENTIST",t:"YOUTUBE CLIP",w:1},{s:"WALTER AS DAVID AFTER DENTIST",t:"WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS",w:1},
+  {s:"YOUTUBE CLIP",t:"WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS",w:1},
+  {s:"WALTER AS A CUBICLE",t:"FOLLOWING EXCHANGE 76. CHERYL",w:1},
+  {s:"ACCIDENTALLY-- WALTER",t:"WALTER",w:1},
+  {s:"ZACH DE LA ROCHA",t:"KID",w:1},{s:"ZACH DE LA ROCHA",t:"LEAD SINGER ZACH DE LA ROCHA",w:1},
+  {s:"LEAD SINGER ZACH DE LA ROCHA",t:"KID",w:1},
+  {s:"WORKING MAN",t:"YOUNGER PROTESTORS",w:1},{s:"WORKING MAN",t:"PROTESTOR",w:1},
+  {s:"YOUNGER PROTESTORS",t:"PROTESTOR",w:1},
+  {s:"POLICE OFFICER",t:"MARK CHATHAM OKAY",w:1},{s:"POLICE OFFICER",t:"AIDE",w:1},
+  {s:"MARK CHATHAM OKAY",t:"AIDE",w:1},
+  {s:"FEMALE NEWS REPORTER",t:"REPORTER",w:1},
+  {s:"THIRD EXECUTIVE",t:"SECOND EXECUTIVE",w:2},{s:"THIRD EXECUTIVE",t:"FIFTH EXECUTIVE",w:1},{s:"THIRD EXECUTIVE",t:"EXECUTIVE",w:1},
+  {s:"SECOND EXECUTIVE",t:"FIFTH EXECUTIVE",w:2},{s:"SECOND EXECUTIVE",t:"EXECUTIVE",w:2},
+  {s:"FIFTH EXECUTIVE",t:"EXECUTIVE",w:1},
+  {s:"PIANO MOVERS PIANO STORAGE",t:"EHARMONY SIGN-UP",w:1},
+  {s:"RETIREMENT HOME ADMINISTRATOR",t:"BILLING DIRECTOR",w:1},
+  {s:"TEEN",t:"SECOND TEEN",w:1},
+  {s:"SECOND BACK SEAT CHILEAN",t:"BACK SEAT CHILEAN",w:1},
+];
+
+// Filter out self-loops and disconnected outliers
+const validIds = new Set(rawNodes.map(n=>n.id));
+const edges = rawEdges.filter(e => e.s !== e.t && validIds.has(e.s) && validIds.has(e.t));
+
+// Community colors — film palette
+const communityColors = {
+  0: "#FFD166", // gold — CHERYL cluster
+  1: "#5A7A9F", // blue — Walter periphery
+  2: "#9B6BA8", // purple — TED HENDRICKS cluster
+  3: "#A3C9A8", // green — MAN/protest cluster
+  4: "#C9B86C", // warm gold — Chilean sailors
+  5: "#7DB87D", // sage — SEAN cluster
+  6: "#5CBAAA", // teal — MARK CHATHAM
+  7: "#E8B4EC", // lavender — SOREN/ULF
+  8: "#E07070", // soft red — STEVE PENDERS
+  9: "#D4886C", // terracotta — ZACH DE LA ROCHA
+  10: "#A8B5C8", // gray — reporters
+  11: "#C4A0A8", // dusty rose — back seat chileans
+};
+
+const communityNames = {
+  0:"Cheryl / eHarmony",1:"Walter & Periphery",2:"Ted Hendricks / Korporacja",3:"Tłum / Protestors",
+  4:"Chilijscy Marynarze",5:"Sean & Nowi",6:"Mark Chatham / Policja",7:"Islandia (Søren & Ulf)",
+  8:"Steve Penders",9:"Zach de la Rocha",10:"Reporterzy",11:"Backseat Chileans"
+};
+
+// Compute degree
+const degreeMap = {};
+rawNodes.forEach(n => degreeMap[n.id] = 0);
+edges.forEach(e => { degreeMap[e.s] = (degreeMap[e.s]||0)+1; degreeMap[e.t] = (degreeMap[e.t]||0)+1; });
+
+const maxBet = Math.max(...rawNodes.map(n=>n.betweenness));
+const maxDeg = Math.max(...Object.values(degreeMap));
+
+const nodeMap = {};
+rawNodes.forEach(n => {
+  const closeness = (degreeMap[n.id]/maxDeg * 0.6 + n.betweenness/maxBet * 0.4);
+  const pagerank = (degreeMap[n.id]/maxDeg * 0.5 + n.rawSize/40 * 0.3 + n.betweenness/maxBet * 0.2);
+  nodeMap[n.id] = { ...n, degree: degreeMap[n.id]||0, closeness, pagerank };
+});
+
+const nodes = rawNodes.map(n => ({...nodeMap[n.id]}));
+
+// ── VIZ STATE ──
+let activeMode = 'degree';
+let selectedNode = null;
+
+const metrics = {
+  degree: n => n.degree,
+  betweenness: n => n.betweenness,
+  closeness: n => n.closeness,
+  pagerank: n => n.pagerank,
+};
+
+function getNodeRadius(n, mode) {
+  const val = metrics[mode](n);
+  const allVals = nodes.map(x => metrics[mode](x));
+  const mn = Math.min(...allVals), mx = Math.max(...allVals);
+  const t = mx === mn ? 0.5 : (val - mn)/(mx - mn);
+  return 5 + t * 26;
+}
+
+// ── D3 SETUP ──
+const svg = d3.select('#graph-svg');
+const panel = document.querySelector('.graph-panel');
+
+function getSize() {
+  return { w: panel.clientWidth, h: panel.clientHeight || window.innerHeight - 130 };
+}
+
+let { w, h } = getSize();
+svg.attr('width', w).attr('height', h);
+
+const g = svg.append('g');
+
+// Zoom
+const zoom = d3.zoom().scaleExtent([0.2, 4]).on('zoom', e => g.attr('transform', e.transform));
+svg.call(zoom);
+
+// Click background to reset
+svg.on('click', () => {
+  selectedNode = null;
+  updateHighlight();
+  renderNodeCard(null);
+});
+
+// Weight scale
+const wMax = Math.max(...edges.map(e=>e.w));
+const linkWidthScale = d3.scaleLinear().domain([1, wMax]).range([0.5, 4]);
+const linkOpacityScale = d3.scaleLinear().domain([1, wMax]).range([0.3, 0.85]);
+
+// Build adjacency for highlight
+const adjacency = {};
+nodes.forEach(n => adjacency[n.id] = new Set());
+edges.forEach(e => { adjacency[e.s].add(e.t); adjacency[e.t].add(e.s); });
+
+// ── SIMULATION ──
+const simNodes = nodes.map(n => ({...n}));
+const simEdges = edges.map(e => ({source: e.s, target: e.t, w: e.w}));
+
+// Community forces setup to cluster nodes closely
+let foci = {};
+function updateFoci(width, height) {
+    const numClasses = 12; // 0 to 11
+    const radius = Math.min(width, height) * 0.35;
+    for (let i = 0; i < numClasses; i++) {
+        const angle = (i / numClasses) * 2 * Math.PI;
+        foci[i] = { x: Math.cos(angle) * radius, y: Math.sin(angle) * radius };
+    }
+}
+updateFoci(w, h);
+
+const simulation = d3.forceSimulation(simNodes)
+  .force('link', d3.forceLink(simEdges).id(d=>d.id).distance(d => {
+      // Shorter distance for nodes in the same community
+      const sClass = typeof d.source === 'object' ? d.source.modClass : nodeMap[d.source].modClass;
+      const tClass = typeof d.target === 'object' ? d.target.modClass : nodeMap[d.target].modClass;
+      return sClass === tClass ? 35 : 180;
+  }))
+  .force('charge', d3.forceManyBody().strength(d => -80 - d.rawSize * 1.5))
+  .force('center', d3.forceCenter(w/2, h/2))
+  .force('collision', d3.forceCollide().radius(d => getNodeRadius(d, activeMode) + 10).iterations(2))
+  .force('x', d3.forceX(d => w/2 + foci[d.modClass].x).strength(0.08))
+  .force('y', d3.forceY(d => h/2 + foci[d.modClass].y).strength(0.08));
+
+// ── DRAW LINKS ──
+const linkSel = g.append('g').selectAll('line')
+  .data(simEdges).join('line')
+  .attr('stroke', '#5A7A9F')
+  .attr('stroke-width', d => linkWidthScale(d.w))
+  .attr('stroke-opacity', d => linkOpacityScale(d.w));
+
+// ── DRAW NODES ──
+const nodeGroup = g.append('g').selectAll('g.node')
+  .data(simNodes).join('g')
+  .attr('class', 'node')
+  .style('cursor', 'pointer')
+  .call(d3.drag()
+    .on('start', (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+    .on('drag', (e, d) => { d.fx=e.x; d.fy=e.y; })
+    .on('end', (e, d) => { if (!e.active) simulation.alphaTarget(0); d.fx=null; d.fy=null; })
+  );
+
+nodeGroup.append('circle')
+  .attr('r', d => getNodeRadius(d, activeMode))
+  // Walter ma twardo ustawiony żółty kolor
+  .attr('fill', d => d.id === 'WALTER' ? '#FFD166' : (communityColors[d.modClass] || '#4C6A92'))
+  // Walter nie ma obwódki, pozostali mają
+  .attr('stroke', d => d.id === 'WALTER' ? 'none' : 'rgba(255,255,255,0.25)')
+  .attr('stroke-width', d => d.id === 'WALTER' ? 0 : 1);
+
+nodeGroup.append('text')
+  .attr('dy', d => getNodeRadius(d, activeMode) + 12)
+  .attr('text-anchor', 'middle')
+  .style('font-family', 'Jost, sans-serif')
+  .style('font-weight', '400')
+  .style('font-size', d => Math.max(8, Math.min(11, getNodeRadius(d, activeMode) * 0.5)) + 'px')
+  .style('fill', '#FFFFFF')
+  .style('pointer-events', 'none')
+  .text(d => d.label);
+
+// ── TOOLTIP ──
+const tooltip = document.getElementById('tooltip');
+
+nodeGroup
+  .on('mouseover', (e, d) => {
+    if (e.defaultPrevented) return;
+    const r = getNodeRadius(d, activeMode);
+    tooltip.style.display = 'block';
+    tooltip.innerHTML = `
+      <div class="tt-name">${d.label}</div>
+      <div class="tt-row">Degree: <span>${d.degree}</span></div>
+      <div class="tt-row">Betweenness: <span>${d.betweenness.toFixed(4)}</span></div>
+      <div class="tt-row">PageRank: <span>${d.pagerank.toFixed(3)}</span></div>
+    `;
+    moveTT(e);
+  })
+  .on('mousemove', moveTT)
+  .on('mouseout', () => { tooltip.style.display = 'none'; })
+  .on('click', (e, d) => {
+    e.stopPropagation();
+    selectedNode = d.id === selectedNode ? null : d.id;
+    updateHighlight();
+    renderNodeCard(selectedNode ? d : null);
+  });
+
+function moveTT(e) {
+  const x = e.clientX + 14, y = e.clientY - 10;
+  tooltip.style.left = x + 'px';
+  tooltip.style.top = y + 'px';
+}
+
+// ── HIGHLIGHT ──
+function updateHighlight() {
+  if (!selectedNode) {
+    nodeGroup.style('opacity', 1);
+    linkSel.style('opacity', d => linkOpacityScale(d.w));
+    nodeGroup.select('circle')
+      .attr('stroke', d => d.id === 'WALTER' ? 'none' : 'rgba(255,255,255,0.25)')
+      .attr('stroke-width', d => d.id === 'WALTER' ? 0 : 1);
+    return;
+  }
+  const neighbors = adjacency[selectedNode];
+  nodeGroup.style('opacity', d => d.id === selectedNode || neighbors.has(d.id) ? 1 : 0.07);
+  linkSel.style('opacity', d => {
+    const s = typeof d.source === 'object' ? d.source.id : d.source;
+    const t = typeof d.target === 'object' ? d.target.id : d.target;
+    return (s === selectedNode || t === selectedNode) ? 0.95 : 0.03;
+  });
+  nodeGroup.select('circle')
+    .attr('stroke', d => d.id === 'WALTER' ? 'none' : neighbors.has(d.id) ? communityColors[d.modClass] : 'rgba(255,255,255,0.25)')
+    .attr('stroke-width', d => d.id === 'WALTER' ? 0 : d.id === selectedNode ? 3 : neighbors.has(d.id) ? 2 : 1);
+}
+
+// ── NODE CARD ──
+function renderNodeCard(d) {
+  const card = document.getElementById('node-card');
+  if (!d) {
+    card.innerHTML = `<div class="node-card-empty"><span class="icon">◎</span>Kliknij węzeł, aby zobaczyć szczegóły</div>`;
+    return;
+  }
+  const neighbors = [...adjacency[d.id]].slice(0, 5);
+  const communityColor = d.id === 'WALTER' ? '#FFD166' : (communityColors[d.modClass] || '#4C6A92');
+  card.innerHTML = `
+    <div class="node-card-name">${d.label}</div>
+    <div class="node-card-community" style="color:${communityColor}">◈ ${communityNames[d.modClass] || 'Społeczność '+d.modClass}</div>
+    <div class="metrics-grid">
+      <div class="metric-box">
+        <div class="metric-label">Degree</div>
+        <div class="metric-value">${d.degree}</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-label">Betweenness</div>
+        <div class="metric-value">${d.betweenness.toFixed(4)}</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-label">Closeness</div>
+        <div class="metric-value">${d.closeness.toFixed(3)}</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-label">PageRank</div>
+        <div class="metric-value">${d.pagerank.toFixed(3)}</div>
+      </div>
+    </div>
+    <div class="neighbors-list">
+      <strong>Połączenia</strong>
+      ${neighbors.join(' · ')}${adjacency[d.id].size > 5 ? ` · +${adjacency[d.id].size-5} więcej` : ''}
+    </div>
+  `;
+}
+
+// ── SIMULATION TICK ──
+simulation.on('tick', () => {
+  linkSel
+    .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+    .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+  nodeGroup.attr('transform', d => `translate(${d.x},${d.y})`);
+});
+
+// ── MODE CONTROLS ──
+document.querySelectorAll('.ctrl-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.ctrl-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeMode = btn.dataset.mode;
+    updateNodeSizes();
+    renderRanking(activeRankMetric);
+  });
+});
+
+function updateNodeSizes() {
+  nodeGroup.select('circle')
+    .attr('r', d => getNodeRadius(d, activeMode));
+  nodeGroup.select('text')
+    .attr('dy', d => getNodeRadius(d, activeMode) + 12)
+    .style('font-size', d => Math.max(8, Math.min(11, getNodeRadius(d, activeMode) * 0.5)) + 'px');
+  simulation.force('collision').radius(d => getNodeRadius(d, activeMode) + 10);
+  simulation.alpha(0.3).restart();
+}
+
+// ── LEGEND ──
+const uniqueClasses = [...new Set(nodes.map(n=>n.modClass))].sort((a,b)=>a-b);
+const legendEl = document.getElementById('legend-items');
+uniqueClasses.forEach(cls => {
+  const item = document.createElement('div');
+  item.className = 'legend-item';
+  item.innerHTML = `<div class="legend-dot" style="background:${communityColors[cls]||'#888'}"></div><span>${communityNames[cls]||'Klaster '+cls}</span>`;
+  item.addEventListener('click', () => {
+    // Highlight all nodes in this community
+    selectedNode = null;
+    nodeGroup.style('opacity', d => d.modClass === cls ? 1 : 0.08);
+    linkSel.style('opacity', d => {
+      const s = typeof d.source === 'object' ? d.source : {id:d.source};
+      const t = typeof d.target === 'object' ? d.target : {id:d.target};
+      const sNode = nodeMap[s.id], tNode = nodeMap[t.id];
+      return sNode && tNode && sNode.modClass === cls && tNode.modClass === cls ? 0.7 : 0.02;
+    });
+  });
+  legendEl.appendChild(item);
+});
+
+// ── RANKING ──
+let activeRankMetric = 'degree';
+
+function renderRanking(metric) {
+  activeRankMetric = metric;
+  const sorted = [...nodes].sort((a,b) => metrics[metric](b) - metrics[metric](a)).slice(0, 20);
+  const maxVal = metrics[metric](sorted[0]);
+  const list = document.getElementById('ranking-list');
+  list.innerHTML = '';
+  sorted.forEach((n, i) => {
+    const val = metrics[metric](n);
+    const pct = maxVal > 0 ? (val/maxVal)*100 : 0;
+    const color = n.id === 'WALTER' ? '#FFD166' : (communityColors[n.modClass] || '#4C6A92');
+    const item = document.createElement('div');
+    item.className = 'rank-item';
+    item.innerHTML = `
+      <div class="rank-num">${i+1}</div>
+      <div class="rank-bar-wrap">
+        <div class="rank-name">${n.label}</div>
+        <div class="rank-bar"><div class="rank-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+      </div>
+      <div class="rank-val">${val < 1 ? val.toFixed(3) : val}</div>
+    `;
+    item.addEventListener('click', () => {
+      selectedNode = n.id;
+      updateHighlight();
+      renderNodeCard(n);
+      // Pan to node
+      const node = simNodes.find(sn => sn.id === n.id);
+      if (node) {
+        const { w, h } = getSize();
+        svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity.translate(w/2 - node.x, h/2 - node.y));
+      }
+    });
+    list.appendChild(item);
+  });
+}
+
+document.querySelectorAll('.rank-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.rank-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    renderRanking(tab.dataset.metric);
+  });
+});
+
+renderRanking('degree');
+
+// ── RESIZE ──
+window.addEventListener('resize', () => {
+  const s = getSize();
+  svg.attr('width', s.w).attr('height', s.h);
+  updateFoci(s.w, s.h);
+  simulation.force('center', d3.forceCenter(s.w/2, s.h/2))
+            .force('x', d3.forceX(d => s.w/2 + foci[d.modClass].x).strength(0.08))
+            .force('y', d3.forceY(d => s.w/2 + foci[d.modClass].y).strength(0.08));
+  simulation.alpha(0.1).restart();
+});
+
+// Initial fit after simulation settles
+setTimeout(() => {
+  const { w, h } = getSize();
+  svg.transition().duration(1000).call(zoom.transform, d3.zoomIdentity.translate(w*0.05, h*0.05).scale(0.85));
+}, 2500);
+</script>
+</body>
+</html>

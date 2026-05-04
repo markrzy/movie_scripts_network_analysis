@@ -1,0 +1,2114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta/>
+  <graph defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="modularityClass" title="modularityClass" type="integer"/>
+      <attribute id="betweennessCentrality" title="betweennessCentrality" type="double"/>
+      <attribute id="rawSize" title="rawSize" type="double"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="rawWeight" title="rawWeight" type="integer"/>
+    </attributes>
+    <nodes>
+      <node id="CHERYL" label="CHERYL">
+        <attvalues>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="betweennessCentrality" value="0.0026287438052143932"/>
+          <attvalue for="rawSize" value="24.04189585200025"/>
+        </attvalues>
+        <viz:color r="101" g="104" b="201"/>
+        <viz:size value="24.04189585200025"/>
+        <viz:position x="195.2389678955078" y="-231.96397399902344"/>
+      </node>
+      <node id="WALTER" label="WALTER">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0.8922699849170438"/>
+          <attvalue for="rawSize" value="40"/>
+        </attvalues>
+        <viz:color r="86" g="166" b="246"/>
+        <viz:size value="40"/>
+        <viz:position x="-21.3415584564209" y="143.11268615722656"/>
+      </node>
+      <node id="TED HENDRICKS" label="TED HENDRICKS">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0.014985994397759104"/>
+          <attvalue for="rawSize" value="30.5588212665285"/>
+        </attvalues>
+        <viz:color r="153" g="85" b="197"/>
+        <viz:size value="30.5588212665285"/>
+        <viz:position x="483.740966796875" y="362.1443786621094"/>
+      </node>
+      <node id="EDNA" label="EDNA">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0.00014005602240896358"/>
+          <attvalue for="rawSize" value="22.099258072150864"/>
+        </attvalues>
+        <viz:color r="169" g="81" b="191"/>
+        <viz:size value="22.099258072150864"/>
+        <viz:position x="465.233154296875" y="155.6721649169922"/>
+      </node>
+      <node id="MAN" label="MAN">
+        <attvalues>
+          <attvalue for="modularityClass" value="3"/>
+          <attvalue for="betweennessCentrality" value="0.004995331465919701"/>
+          <attvalue for="rawSize" value="26.192326165340525"/>
+        </attvalues>
+        <viz:color r="186" g="68" b="137"/>
+        <viz:size value="26.192326165340525"/>
+        <viz:position x="-73.19441223144531" y="740.7830810546875"/>
+      </node>
+      <node id="ODESSA" label="ODESSA">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="168" g="210" b="236"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-401.2793884277344" y="275.9140930175781"/>
+      </node>
+      <node id="EHARMONY COUNSELOR" label="EHARMONY COUNSELOR">
+        <attvalues>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="betweennessCentrality" value="0.0007936507936507935"/>
+          <attvalue for="rawSize" value="23.140195145044384"/>
+        </attvalues>
+        <viz:color r="101" g="104" b="201"/>
+        <viz:size value="23.140195145044384"/>
+        <viz:position x="-95.79834747314453" y="525.520751953125"/>
+      </node>
+      <node id="RICH" label="RICH">
+        <attvalues>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="betweennessCentrality" value="0.022969187675070026"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="104" g="103" b="200"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="205.88504028320312" y="-392.0986633300781"/>
+      </node>
+      <node id="CAPTAIN" label="CAPTAIN">
+        <attvalues>
+          <attvalue for="modularityClass" value="4"/>
+          <attvalue for="betweennessCentrality" value="0.00028011204481792715"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="189" g="178" b="77"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-422.7517395019531" y="-171.19110107421875"/>
+      </node>
+      <node id="SEAN" label="SEAN">
+        <attvalues>
+          <attvalue for="modularityClass" value="5"/>
+          <attvalue for="betweennessCentrality" value="0.0019140989729225025"/>
+          <attvalue for="rawSize" value="25.54872277874732"/>
+        </attvalues>
+        <viz:color r="192" g="239" b="87"/>
+        <viz:size value="25.54872277874732"/>
+        <viz:position x="208.54212951660156" y="566.7400512695312"/>
+      </node>
+      <node id="TIM NAUGHTON" label="TIM NAUGHTON">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0.003478057889822596"/>
+          <attvalue for="rawSize" value="26.779890022817614"/>
+        </attvalues>
+        <viz:color r="163" g="83" b="193"/>
+        <viz:size value="26.779890022817614"/>
+        <viz:position x="753.3422241210938" y="385.0253601074219"/>
+      </node>
+      <node id="PILOT" label="PILOT">
+        <attvalues>
+          <attvalue for="modularityClass" value="3"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="197" g="65" b="130"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="-240.57711791992188" y="557.9231567382812"/>
+      </node>
+      <node id="HERNANDO" label="HERNANDO">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="171" g="81" b="190"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="455.4084777832031" y="23.32550048828125"/>
+      </node>
+      <node id="TODD MAHAR" label="TODD MAHAR">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0.00042016806722689073"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="168" g="210" b="236"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="71.3316879272461" y="524.0986938476562"/>
+      </node>
+      <node id="CHILEAN SAILOR" label="CHILEAN SAILOR">
+        <attvalues>
+          <attvalue for="modularityClass" value="4"/>
+          <attvalue for="betweennessCentrality" value="0.00028011204481792715"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="189" g="178" b="77"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-354.6209716796875" y="-341.82391357421875"/>
+      </node>
+      <node id="MARK CHATHAM" label="MARK CHATHAM">
+        <attvalues>
+          <attvalue for="modularityClass" value="6"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="22.099258072150864"/>
+        </attvalues>
+        <viz:color r="31" g="220" b="171"/>
+        <viz:size value="22.099258072150864"/>
+        <viz:position x="-562.2203979492188" y="-242.4596405029297"/>
+      </node>
+      <node id="EDITOR" label="EDITOR">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0.00014005602240896358"/>
+          <attvalue for="rawSize" value="22.099258072150864"/>
+        </attvalues>
+        <viz:color r="169" g="81" b="191"/>
+        <viz:size value="22.099258072150864"/>
+        <viz:position x="652.3334350585938" y="202.0597686767578"/>
+      </node>
+      <node id="GARY MANNHEIM" label="GARY MANNHEIM">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0.00039682539682539677"/>
+          <attvalue for="rawSize" value="23.140195145044384"/>
+        </attvalues>
+        <viz:color r="168" g="81" b="191"/>
+        <viz:size value="23.140195145044384"/>
+        <viz:position x="462.594482421875" y="796.5044555664062"/>
+      </node>
+      <node id="GARY" label="GARY">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0.00039682539682539677"/>
+          <attvalue for="rawSize" value="23.140195145044384"/>
+        </attvalues>
+        <viz:color r="168" g="81" b="191"/>
+        <viz:size value="23.140195145044384"/>
+        <viz:position x="395.92327880859375" y="721.5262451171875"/>
+      </node>
+      <node id="TED HENDRICKS COLLEAGUE" label="TED HENDRICKS COLLEAGUE">
+        <attvalues>
+          <attvalue for="modularityClass" value="5"/>
+          <attvalue for="betweennessCentrality" value="0.0008403361344537815"/>
+          <attvalue for="rawSize" value="25.54872277874732"/>
+        </attvalues>
+        <viz:color r="192" g="239" b="87"/>
+        <viz:size value="25.54872277874732"/>
+        <viz:position x="645.2996826171875" y="484.23101806640625"/>
+      </node>
+      <node id="GUIDE" label="GUIDE">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="-313.6477355957031" y="-36.562034606933594"/>
+      </node>
+      <node id="SOREN" label="SOREN">
+        <attvalues>
+          <attvalue for="modularityClass" value="7"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="234" g="154" b="240"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-187.71287536621094" y="-340.35333251953125"/>
+      </node>
+      <node id="CAB DRIVER" label="CAB DRIVER">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="169" g="211" b="236"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-466.9555358886719" y="123.57036590576172"/>
+      </node>
+      <node id="STEVE PENDERS" label="STEVE PENDERS">
+        <attvalues>
+          <attvalue for="modularityClass" value="8"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="203" g="75" b="62"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-288.9000244140625" y="991.740234375"/>
+      </node>
+      <node id="COMP-- WALTER" label="COMP-- WALTER">
+        <attvalues>
+          <attvalue for="modularityClass" value="8"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="203" g="75" b="62"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-223.71177673339844" y="933.8139038085938"/>
+      </node>
+      <node id="CHECK WALTER" label="CHECK WALTER">
+        <attvalues>
+          <attvalue for="modularityClass" value="8"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="203" g="75" b="62"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-192.52011108398438" y="1009.8993530273438"/>
+      </node>
+      <node id="PERMANENT-- NEW GUY" label="PERMANENT-- NEW GUY">
+        <attvalues>
+          <attvalue for="modularityClass" value="5"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="20.868090828080565"/>
+        </attvalues>
+        <viz:color r="198" g="243" b="82"/>
+        <viz:size value="20.868090828080565"/>
+        <viz:position x="489.6941223144531" y="607.7748413085938"/>
+      </node>
+      <node id="NEW GUY" label="NEW GUY">
+        <attvalues>
+          <attvalue for="modularityClass" value="5"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="20.868090828080565"/>
+        </attvalues>
+        <viz:color r="198" g="243" b="82"/>
+        <viz:size value="20.868090828080565"/>
+        <viz:position x="577.4553833007812" y="637.2125244140625"/>
+      </node>
+      <node id="NORMAL GUY" label="NORMAL GUY">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="169" g="211" b="236"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-86.5688247680664" y="-415.90472412109375"/>
+      </node>
+      <node id="ETIHAD CLERK" label="ETIHAD CLERK">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="-485.89501953125" y="24.92345428466797"/>
+      </node>
+      <node id="SEANN" label="SEANN">
+        <attvalues>
+          <attvalue for="modularityClass" value="5"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="201" g="245" b="80"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="114.5482177734375" y="843.91650390625"/>
+      </node>
+      <node id="SOCCER FIELD - LATER" label="SOCCER FIELD - LATER">
+        <attvalues>
+          <attvalue for="modularityClass" value="5"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="201" g="245" b="80"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="170.13609313964844" y="785.841552734375"/>
+      </node>
+      <node id="SOMALIAN" label="SOMALIAN">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="-502.9020080566406" y="215.2584991455078"/>
+      </node>
+      <node id="ULF" label="ULF">
+        <attvalues>
+          <attvalue for="modularityClass" value="7"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="237" g="155" b="240"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="-202.8734130859375" y="-448.6229248046875"/>
+      </node>
+      <node id="TICKET CLERK" label="TICKET CLERK">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="360.97479248046875" y="-127.98255157470703"/>
+      </node>
+      <node id="WALTER AS DAVID AFTER DENTIST" label="WALTER AS DAVID AFTER DENTIST">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="169" g="211" b="236"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-168.7098846435547" y="-690.4656372070312"/>
+      </node>
+      <node id="YOUTUBE CLIP" label="YOUTUBE CLIP">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="169" g="211" b="236"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-114.50155639648438" y="-627.670654296875"/>
+      </node>
+      <node id="WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS" label="WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="169" g="211" b="236"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-67.19734954833984" y="-698.259521484375"/>
+      </node>
+      <node id="PHOTO-- WALTER" label="PHOTO-- WALTER">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="173" g="80" b="189"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="561.6177978515625" y="62.42676544189453"/>
+      </node>
+      <node id="WALTER AS A CUBICLE" label="WALTER AS A CUBICLE">
+        <attvalues>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="104" g="103" b="200"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="393.8704528808594" y="-408.6641845703125"/>
+      </node>
+      <node id="FOLLOWING EXCHANGE 76. CHERYL" label="FOLLOWING EXCHANGE 76. CHERYL">
+        <attvalues>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="104" g="103" b="200"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="330.9725341796875" y="-467.8956298828125"/>
+      </node>
+      <node id="FRONT DESK LADY" label="FRONT DESK LADY">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="-298.8232727050781" y="-143.1705780029297"/>
+      </node>
+      <node id="RODNEY" label="RODNEY">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="-259.81439208984375" y="-213.04641723632812"/>
+      </node>
+      <node id="ACCOUNTING CLERK" label="ACCOUNTING CLERK">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="171" g="81" b="190"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="611.319580078125" y="749.693603515625"/>
+      </node>
+      <node id="ACCIDENTALLY-- WALTER" label="ACCIDENTALLY-- WALTER">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="169" g="211" b="236"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-256.8855895996094" y="444.1225280761719"/>
+      </node>
+      <node id="YOUNG MAN" label="YOUNG MAN">
+        <attvalues>
+          <attvalue for="modularityClass" value="3"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="197" g="65" b="130"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="-236.64112854003906" y="718.7409057617188"/>
+      </node>
+      <node id="POLICE CLERK" label="POLICE CLERK">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="169" g="211" b="236"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-665.8187866210938" y="610.3551025390625"/>
+      </node>
+      <node id="ZACH DE LA ROCHA" label="ZACH DE LA ROCHA">
+        <attvalues>
+          <attvalue for="modularityClass" value="9"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="23.140195145044384"/>
+        </attvalues>
+        <viz:color r="190" g="127" b="71"/>
+        <viz:size value="23.140195145044384"/>
+        <viz:position x="-825.3171997070312" y="371.7835388183594"/>
+      </node>
+      <node id="LEAD SINGER ZACH DE LA ROCHA" label="LEAD SINGER ZACH DE LA ROCHA">
+        <attvalues>
+          <attvalue for="modularityClass" value="9"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="193" g="127" b="67"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-889.201416015625" y="451.2037353515625"/>
+      </node>
+      <node id="KID" label="KID">
+        <attvalues>
+          <attvalue for="modularityClass" value="9"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="193" g="127" b="67"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-923.2986450195312" y="345.9285888671875"/>
+      </node>
+      <node id="WORKING MAN" label="WORKING MAN">
+        <attvalues>
+          <attvalue for="modularityClass" value="3"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="194" g="66" b="131"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-385.5279541015625" y="895.8225708007812"/>
+      </node>
+      <node id="YOUNGER PROTESTORS" label="YOUNGER PROTESTORS">
+        <attvalues>
+          <attvalue for="modularityClass" value="3"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="194" g="66" b="131"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-399.86181640625" y="804.6618041992188"/>
+      </node>
+      <node id="SECOND MAN IN A SUIT" label="SECOND MAN IN A SUIT">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="20.868090828080565"/>
+        </attvalues>
+        <viz:color r="170" g="81" b="191"/>
+        <viz:size value="20.868090828080565"/>
+        <viz:position x="304.8415222167969" y="831.488525390625"/>
+      </node>
+      <node id="ROY" label="ROY">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="-26.344921112060547" y="-278.46929931640625"/>
+      </node>
+      <node id="CREDITS BEGIN" label="CREDITS BEGIN">
+        <attvalues>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="104" g="103" b="199"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="364.9797058105469" y="-286.5736999511719"/>
+      </node>
+      <node id="PROTESTOR" label="PROTESTOR">
+        <attvalues>
+          <attvalue for="modularityClass" value="3"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="194" g="66" b="131"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-308.9467468261719" y="847.3731079101562"/>
+      </node>
+      <node id="POLICE OFFICER" label="POLICE OFFICER">
+        <attvalues>
+          <attvalue for="modularityClass" value="6"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="31" g="221" b="170"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-746.0313720703125" y="-387.4063415527344"/>
+      </node>
+      <node id="MARK CHATHAM OKAY" label="MARK CHATHAM OKAY">
+        <attvalues>
+          <attvalue for="modularityClass" value="6"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="31" g="221" b="170"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-729.74072265625" y="-300.7627868652344"/>
+      </node>
+      <node id="AIDE" label="AIDE">
+        <attvalues>
+          <attvalue for="modularityClass" value="6"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="31" g="221" b="170"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-658.9778442382812" y="-401.1947326660156"/>
+      </node>
+      <node id="FEMALE NEWS REPORTER" label="FEMALE NEWS REPORTER">
+        <attvalues>
+          <attvalue for="modularityClass" value="10"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="100" g="135" b="180"/>
+        <viz:size value="10"/>
+        <viz:position x="4305.61376953125" y="-4615.25830078125"/>
+      </node>
+      <node id="REPORTER" label="REPORTER">
+        <attvalues>
+          <attvalue for="modularityClass" value="10"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="100" g="135" b="180"/>
+        <viz:size value="10"/>
+        <viz:position x="4353.10205078125" y="-4669.0517578125"/>
+      </node>
+      <node id="COP" label="COP">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="-414.85418701171875" y="-35.60801315307617"/>
+      </node>
+      <node id="15-YR-OLD-PUERTO-RICAN GIRL MORGAN FREEMAN" label="15-YR-OLD-PUERTO-RICAN GIRL MORGAN FREEMAN">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="-3.2578799724578857" y="606.4395751953125"/>
+      </node>
+      <node id="FORCE-- WALTER" label="FORCE-- WALTER">
+        <attvalues>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="104" g="103" b="199"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="-354.5987854003906" y="561.8043212890625"/>
+      </node>
+      <node id="THIRD EXECUTIVE" label="THIRD EXECUTIVE">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="22.099258072150864"/>
+        </attvalues>
+        <viz:color r="169" g="81" b="191"/>
+        <viz:size value="22.099258072150864"/>
+        <viz:position x="993.1117553710938" y="245.5680389404297"/>
+      </node>
+      <node id="SECOND EXECUTIVE" label="SECOND EXECUTIVE">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="22.099258072150864"/>
+        </attvalues>
+        <viz:color r="169" g="81" b="191"/>
+        <viz:size value="22.099258072150864"/>
+        <viz:position x="865.6720581054688" y="238.06796264648438"/>
+      </node>
+      <node id="FIFTH EXECUTIVE" label="FIFTH EXECUTIVE">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="22.099258072150864"/>
+        </attvalues>
+        <viz:color r="169" g="81" b="191"/>
+        <viz:size value="22.099258072150864"/>
+        <viz:position x="935.3757934570312" y="144.16162109375"/>
+      </node>
+      <node id="EXECUTIVE" label="EXECUTIVE">
+        <attvalues>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="22.099258072150864"/>
+        </attvalues>
+        <viz:color r="169" g="81" b="191"/>
+        <viz:size value="22.099258072150864"/>
+        <viz:position x="953.6585083007812" y="346.8009338378906"/>
+      </node>
+      <node id="GUY IN PARK" label="GUY IN PARK">
+        <attvalues>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="105" g="103" b="199"/>
+        <viz:size value="10"/>
+        <viz:position x="343.4627685546875" y="-732.4844360351562"/>
+      </node>
+      <node id="FOUR SEASONS CLERK" label="FOUR SEASONS CLERK">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="-404.9530334472656" y="45.89476776123047"/>
+      </node>
+      <node id="ETIHAD AIRLINES LUGGAGE GIRL" label="ETIHAD AIRLINES LUGGAGE GIRL">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="170" g="211" b="236"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="68.86982727050781" y="673.84814453125"/>
+      </node>
+      <node id="PIANO MOVERS PIANO STORAGE" label="PIANO MOVERS PIANO STORAGE">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="170" g="211" b="236"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="-545.3026123046875" y="484.2223815917969"/>
+      </node>
+      <node id="EHARMONY SIGN-UP" label="EHARMONY SIGN-UP">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="170" g="211" b="236"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="-591.40478515625" y="422.09259033203125"/>
+      </node>
+      <node id="MOVER" label="MOVER">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="-104.22772216796875" y="-254.1671142578125"/>
+      </node>
+      <node id="CAR IMPOUND OFFICER" label="CAR IMPOUND OFFICER">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="10"/>
+        </attvalues>
+        <viz:color r="171" g="212" b="236"/>
+        <viz:size value="10"/>
+        <viz:position x="-181.6942901611328" y="-217.8683624267578"/>
+      </node>
+      <node id="ENGLIGH SPEAKING CHILEAN SAILOR" label="ENGLIGH SPEAKING CHILEAN SAILOR">
+        <attvalues>
+          <attvalue for="modularityClass" value="4"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="189" g="178" b="77"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-358.7336730957031" y="-475.5179748535156"/>
+      </node>
+      <node id="KLIPSPRINGER KOOFIYAD FAKR AD-D" label="KLIPSPRINGER KOOFIYAD FAKR AD-D">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="170" g="211" b="236"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="-531.3630981445312" y="322.0940246582031"/>
+      </node>
+      <node id="RETIREMENT HOME ADMINISTRATOR" label="RETIREMENT HOME ADMINISTRATOR">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="170" g="211" b="236"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="-643.5807495117188" y="134.13978576660156"/>
+      </node>
+      <node id="BILLING DIRECTOR" label="BILLING DIRECTOR">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="170" g="211" b="236"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="-645.4135131835938" y="212.41543579101562"/>
+      </node>
+      <node id="POSTAL CLERK" label="POSTAL CLERK">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="169" g="211" b="236"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="21.284757614135742" y="-399.8206787109375"/>
+      </node>
+      <node id="BOAT CAPTAIN" label="BOAT CAPTAIN">
+        <attvalues>
+          <attvalue for="modularityClass" value="4"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="19.3612639013335"/>
+        </attvalues>
+        <viz:color r="189" g="178" b="77"/>
+        <viz:size value="19.3612639013335"/>
+        <viz:position x="-577.5377197265625" y="-96.81434631347656"/>
+      </node>
+      <node id="TEEN" label="TEEN">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="170" g="211" b="236"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="112.5736312866211" y="-541.9219360351562"/>
+      </node>
+      <node id="SECOND TEEN" label="SECOND TEEN">
+        <attvalues>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="14.68063195066675"/>
+        </attvalues>
+        <viz:color r="170" g="211" b="236"/>
+        <viz:size value="14.68063195066675"/>
+        <viz:position x="35.387916564941406" y="-536.2907104492188"/>
+      </node>
+      <node id="SECOND BACK SEAT CHILEAN" label="SECOND BACK SEAT CHILEAN">
+        <attvalues>
+          <attvalue for="modularityClass" value="11"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="20.868090828080565"/>
+        </attvalues>
+        <viz:color r="187" g="104" b="120"/>
+        <viz:size value="20.868090828080565"/>
+        <viz:position x="-871.3477172851562" y="-5.964721202850342"/>
+      </node>
+      <node id="BACK SEAT CHILEAN" label="BACK SEAT CHILEAN">
+        <attvalues>
+          <attvalue for="modularityClass" value="11"/>
+          <attvalue for="betweennessCentrality" value="0"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="190" g="104" b="119"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-801.8904418945312" y="60.448307037353516"/>
+      </node>
+      <node id="CHILEAN CAPTAIN" label="CHILEAN CAPTAIN">
+        <attvalues>
+          <attvalue for="modularityClass" value="4"/>
+          <attvalue for="betweennessCentrality" value="0.00026933850463262214"/>
+          <attvalue for="rawSize" value="17.418626121484113"/>
+        </attvalues>
+        <viz:color r="190" g="178" b="76"/>
+        <viz:size value="17.418626121484113"/>
+        <viz:position x="-465.41766357421875" y="-363.9423828125"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="geid_134_0" source="CHERYL" target="WALTER" weight="16">
+        <attvalues>
+          <attvalue for="rawWeight" value="16"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_1" source="CHERYL" target="RICH" weight="4">
+        <attvalues>
+          <attvalue for="rawWeight" value="4"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_2" source="CHERYL" target="CHERYL" weight="3">
+        <attvalues>
+          <attvalue for="rawWeight" value="3"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_3" source="CHERYL" target="WALTER AS A CUBICLE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_4" source="CHERYL" target="FOLLOWING EXCHANGE 76. CHERYL" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_5" source="CHERYL" target="EHARMONY COUNSELOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_6" source="CHERYL" target="CREDITS BEGIN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_7" source="WALTER" target="WALTER" weight="58">
+        <attvalues>
+          <attvalue for="rawWeight" value="58"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_8" source="WALTER" target="TED HENDRICKS" weight="16">
+        <attvalues>
+          <attvalue for="rawWeight" value="16"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_9" source="WALTER" target="EDNA" weight="6">
+        <attvalues>
+          <attvalue for="rawWeight" value="6"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_10" source="WALTER" target="MAN" weight="6">
+        <attvalues>
+          <attvalue for="rawWeight" value="6"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_11" source="WALTER" target="ODESSA" weight="6">
+        <attvalues>
+          <attvalue for="rawWeight" value="6"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_12" source="WALTER" target="EHARMONY COUNSELOR" weight="11">
+        <attvalues>
+          <attvalue for="rawWeight" value="11"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_13" source="WALTER" target="RICH" weight="4">
+        <attvalues>
+          <attvalue for="rawWeight" value="4"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_14" source="WALTER" target="CAPTAIN" weight="4">
+        <attvalues>
+          <attvalue for="rawWeight" value="4"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_15" source="WALTER" target="SEAN" weight="9">
+        <attvalues>
+          <attvalue for="rawWeight" value="9"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_16" source="WALTER" target="TIM NAUGHTON" weight="4">
+        <attvalues>
+          <attvalue for="rawWeight" value="4"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_17" source="WALTER" target="PILOT" weight="4">
+        <attvalues>
+          <attvalue for="rawWeight" value="4"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_18" source="WALTER" target="HERNANDO" weight="3">
+        <attvalues>
+          <attvalue for="rawWeight" value="3"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_19" source="WALTER" target="TODD MAHAR" weight="3">
+        <attvalues>
+          <attvalue for="rawWeight" value="3"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_20" source="WALTER" target="CHILEAN SAILOR" weight="3">
+        <attvalues>
+          <attvalue for="rawWeight" value="3"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_21" source="WALTER" target="MARK CHATHAM" weight="5">
+        <attvalues>
+          <attvalue for="rawWeight" value="5"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_22" source="WALTER" target="EDITOR" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_23" source="WALTER" target="GARY MANNHEIM" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_24" source="WALTER" target="GARY" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_25" source="WALTER" target="GUIDE" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_26" source="WALTER" target="SOREN" weight="3">
+        <attvalues>
+          <attvalue for="rawWeight" value="3"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_27" source="WALTER" target="CAB DRIVER" weight="3">
+        <attvalues>
+          <attvalue for="rawWeight" value="3"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_28" source="WALTER" target="TED HENDRICKS COLLEAGUE" weight="3">
+        <attvalues>
+          <attvalue for="rawWeight" value="3"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_29" source="WALTER" target="PERMANENT-- NEW GUY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_30" source="WALTER" target="NEW GUY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_31" source="WALTER" target="STEVE PENDERS" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_32" source="WALTER" target="COMP-- WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_33" source="WALTER" target="NORMAL GUY" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_34" source="WALTER" target="ETIHAD CLERK" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_35" source="WALTER" target="CHECK WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_36" source="WALTER" target="SOMALIAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_37" source="WALTER" target="ULF" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_38" source="WALTER" target="TICKET CLERK" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_39" source="WALTER" target="YOUTUBE CLIP" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_40" source="WALTER" target="WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_41" source="WALTER" target="WALTER AS DAVID AFTER DENTIST" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_42" source="WALTER" target="PHOTO-- WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_43" source="WALTER" target="WALTER AS A CUBICLE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_44" source="WALTER" target="FOLLOWING EXCHANGE 76. CHERYL" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_45" source="WALTER" target="FRONT DESK LADY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_46" source="WALTER" target="RODNEY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_47" source="WALTER" target="SOCCER FIELD - LATER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_48" source="WALTER" target="SEANN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_49" source="WALTER" target="YOUNG MAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_50" source="WALTER" target="POLICE CLERK" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_51" source="WALTER" target="ZACH DE LA ROCHA" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_52" source="WALTER" target="LEAD SINGER ZACH DE LA ROCHA" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_53" source="WALTER" target="KID" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_54" source="WALTER" target="YOUNGER PROTESTORS" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_55" source="WALTER" target="WORKING MAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_56" source="WALTER" target="ROY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_57" source="WALTER" target="ACCOUNTING CLERK" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_58" source="WALTER" target="PROTESTOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_59" source="WALTER" target="POLICE OFFICER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_60" source="WALTER" target="MARK CHATHAM OKAY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_61" source="WALTER" target="AIDE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_62" source="WALTER" target="COP" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_63" source="WALTER" target="15-YR-OLD-PUERTO-RICAN GIRL MORGAN FREEMAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_64" source="WALTER" target="THIRD EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_65" source="WALTER" target="FIFTH EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_66" source="WALTER" target="EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_67" source="WALTER" target="SECOND EXECUTIVE" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_68" source="WALTER" target="FORCE-- WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_69" source="WALTER" target="FOUR SEASONS CLERK" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_70" source="WALTER" target="ETIHAD AIRLINES LUGGAGE GIRL" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_71" source="WALTER" target="ACCIDENTALLY-- WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_72" source="WALTER" target="PIANO MOVERS PIANO STORAGE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_73" source="WALTER" target="EHARMONY SIGN-UP" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_74" source="WALTER" target="CREDITS BEGIN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_75" source="WALTER" target="SECOND MAN IN A SUIT" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_76" source="WALTER" target="MOVER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_77" source="WALTER" target="CAR IMPOUND OFFICER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_78" source="WALTER" target="ENGLIGH SPEAKING CHILEAN SAILOR" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_79" source="WALTER" target="KLIPSPRINGER KOOFIYAD FAKR AD-D" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_80" source="WALTER" target="RETIREMENT HOME ADMINISTRATOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_81" source="WALTER" target="BILLING DIRECTOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_82" source="WALTER" target="BOAT CAPTAIN" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_83" source="WALTER" target="TEEN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_84" source="WALTER" target="SECOND TEEN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_85" source="WALTER" target="SECOND BACK SEAT CHILEAN" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_86" source="WALTER" target="BACK SEAT CHILEAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_87" source="WALTER" target="CHILEAN CAPTAIN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_88" source="WALTER" target="POSTAL CLERK" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_89" source="TED HENDRICKS" target="EDITOR" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_90" source="TED HENDRICKS" target="TIM NAUGHTON" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_91" source="TED HENDRICKS" target="TED HENDRICKS COLLEAGUE" weight="3">
+        <attvalues>
+          <attvalue for="rawWeight" value="3"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_92" source="TED HENDRICKS" target="SEAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_93" source="TED HENDRICKS" target="PERMANENT-- NEW GUY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_94" source="TED HENDRICKS" target="PHOTO-- WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_95" source="TED HENDRICKS" target="NEW GUY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_96" source="TED HENDRICKS" target="THIRD EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_97" source="TED HENDRICKS" target="SECOND EXECUTIVE" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_98" source="TED HENDRICKS" target="FIFTH EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_99" source="TED HENDRICKS" target="TED HENDRICKS" weight="3">
+        <attvalues>
+          <attvalue for="rawWeight" value="3"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_100" source="TED HENDRICKS" target="TODD MAHAR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_101" source="TED HENDRICKS" target="EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_102" source="TED HENDRICKS" target="HERNANDO" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_103" source="TED HENDRICKS" target="SECOND MAN IN A SUIT" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_104" source="TED HENDRICKS" target="MAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_105" source="TED HENDRICKS" target="GARY MANNHEIM" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_106" source="TED HENDRICKS" target="GARY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_107" source="TED HENDRICKS" target="EDNA" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_108" source="EDNA" target="TED HENDRICKS COLLEAGUE" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_109" source="EDNA" target="HERNANDO" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_110" source="EDNA" target="TIM NAUGHTON" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_111" source="EDNA" target="EDITOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_112" source="MAN" target="PILOT" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_113" source="MAN" target="YOUNG MAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_114" source="MAN" target="YOUNGER PROTESTORS" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_115" source="MAN" target="WORKING MAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_116" source="MAN" target="PROTESTOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_117" source="MAN" target="SECOND MAN IN A SUIT" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_118" source="MAN" target="GARY MANNHEIM" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_119" source="MAN" target="GARY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_120" source="MAN" target="EHARMONY COUNSELOR" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_121" source="ODESSA" target="ODESSA" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_122" source="ODESSA" target="KLIPSPRINGER KOOFIYAD FAKR AD-D" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_123" source="EHARMONY COUNSELOR" target="EHARMONY COUNSELOR" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_124" source="EHARMONY COUNSELOR" target="SEAN" weight="3">
+        <attvalues>
+          <attvalue for="rawWeight" value="3"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_125" source="EHARMONY COUNSELOR" target="FORCE-- WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_126" source="RICH" target="GUY IN PARK" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_127" source="CAPTAIN" target="BOAT CAPTAIN" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_128" source="CAPTAIN" target="CHILEAN SAILOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_129" source="CAPTAIN" target="CHILEAN CAPTAIN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_130" source="SEAN" target="PERMANENT-- NEW GUY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_131" source="SEAN" target="TED HENDRICKS COLLEAGUE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_132" source="SEAN" target="SEANN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_133" source="SEAN" target="NEW GUY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_134" source="SEAN" target="SOCCER FIELD - LATER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_135" source="SEAN" target="SEAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_136" source="TIM NAUGHTON" target="GARY MANNHEIM" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_137" source="TIM NAUGHTON" target="GARY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_138" source="TIM NAUGHTON" target="ACCOUNTING CLERK" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_139" source="TIM NAUGHTON" target="THIRD EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_140" source="TIM NAUGHTON" target="SECOND EXECUTIVE" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_141" source="TIM NAUGHTON" target="FIFTH EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_142" source="TIM NAUGHTON" target="EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_143" source="TIM NAUGHTON" target="TED HENDRICKS COLLEAGUE" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_144" source="TIM NAUGHTON" target="EDITOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_145" source="HERNANDO" target="EDITOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_146" source="TODD MAHAR" target="ETIHAD AIRLINES LUGGAGE GIRL" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_147" source="TODD MAHAR" target="ACCIDENTALLY-- WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_148" source="CHILEAN SAILOR" target="ENGLIGH SPEAKING CHILEAN SAILOR" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_149" source="CHILEAN SAILOR" target="CHILEAN CAPTAIN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_150" source="MARK CHATHAM" target="POLICE OFFICER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_151" source="MARK CHATHAM" target="MARK CHATHAM OKAY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_152" source="MARK CHATHAM" target="AIDE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_153" source="MARK CHATHAM" target="MARK CHATHAM" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_154" source="EDITOR" target="TED HENDRICKS COLLEAGUE" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_155" source="GARY MANNHEIM" target="GARY" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_156" source="GARY MANNHEIM" target="ACCOUNTING CLERK" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_157" source="GARY MANNHEIM" target="SECOND MAN IN A SUIT" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_158" source="GARY" target="ACCOUNTING CLERK" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_159" source="GARY" target="SECOND MAN IN A SUIT" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_160" source="TED HENDRICKS COLLEAGUE" target="PERMANENT-- NEW GUY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_161" source="TED HENDRICKS COLLEAGUE" target="NEW GUY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_162" source="TED HENDRICKS COLLEAGUE" target="TED HENDRICKS COLLEAGUE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_163" source="SOREN" target="ULF" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_164" source="SOREN" target="SOREN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_165" source="CAB DRIVER" target="CAB DRIVER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_166" source="STEVE PENDERS" target="COMP-- WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_167" source="STEVE PENDERS" target="CHECK WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_168" source="COMP-- WALTER" target="CHECK WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_169" source="PERMANENT-- NEW GUY" target="NEW GUY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_170" source="NORMAL GUY" target="NORMAL GUY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_171" source="SEANN" target="SOCCER FIELD - LATER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_172" source="WALTER AS DAVID AFTER DENTIST" target="YOUTUBE CLIP" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_173" source="WALTER AS DAVID AFTER DENTIST" target="WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_174" source="YOUTUBE CLIP" target="WHAT FOLLOWS IS A MONTAGE OF THE MOST CLASSIC PHOTOGRAPHS" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_134_175" source="WALTER AS A CUBICLE" target="FOLLOWING EXCHANGE 76. CHERYL" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_0" source="ACCIDENTALLY-- WALTER" target="WALTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_1" source="POLICE CLERK" target="POLICE CLERK" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_2" source="ZACH DE LA ROCHA" target="KID" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_3" source="ZACH DE LA ROCHA" target="ZACH DE LA ROCHA" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_4" source="ZACH DE LA ROCHA" target="LEAD SINGER ZACH DE LA ROCHA" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_5" source="LEAD SINGER ZACH DE LA ROCHA" target="KID" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_6" source="LEAD SINGER ZACH DE LA ROCHA" target="ZACH DE LA ROCHA" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_7" source="KID" target="ZACH DE LA ROCHA" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_8" source="WORKING MAN" target="YOUNGER PROTESTORS" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_9" source="WORKING MAN" target="PROTESTOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_10" source="YOUNGER PROTESTORS" target="PROTESTOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_11" source="POLICE OFFICER" target="MARK CHATHAM OKAY" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_12" source="POLICE OFFICER" target="AIDE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_13" source="MARK CHATHAM OKAY" target="AIDE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_14" source="FEMALE NEWS REPORTER" target="REPORTER" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_15" source="THIRD EXECUTIVE" target="SECOND EXECUTIVE" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_16" source="THIRD EXECUTIVE" target="FIFTH EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_17" source="THIRD EXECUTIVE" target="EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_18" source="SECOND EXECUTIVE" target="FIFTH EXECUTIVE" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_19" source="SECOND EXECUTIVE" target="EXECUTIVE" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_20" source="FIFTH EXECUTIVE" target="EXECUTIVE" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_21" source="PIANO MOVERS PIANO STORAGE" target="EHARMONY SIGN-UP" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_22" source="ENGLIGH SPEAKING CHILEAN SAILOR" target="ENGLIGH SPEAKING CHILEAN SAILOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_23" source="RETIREMENT HOME ADMINISTRATOR" target="BILLING DIRECTOR" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_24" source="POSTAL CLERK" target="POSTAL CLERK" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_25" source="BOAT CAPTAIN" target="BOAT CAPTAIN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_26" source="TEEN" target="SECOND TEEN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_27" source="SECOND BACK SEAT CHILEAN" target="BACK SEAT CHILEAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_28" source="SECOND BACK SEAT CHILEAN" target="SECOND BACK SEAT CHILEAN" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="geid_135_29" source="BACK SEAT CHILEAN" target="SECOND BACK SEAT CHILEAN" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
